@@ -10,7 +10,7 @@ const IndexPage = () => (
       keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
     />
     <div className="flex flex-1 items-center justify-center h-full w-full">
-      <h1>Hello World!</h1>
+      <h1 className="text-5xl">Hello World!</h1>
     </div>
   </Layout>
 );
