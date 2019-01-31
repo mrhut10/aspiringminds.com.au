@@ -11,9 +11,9 @@ const handleClick = ev => {
 };
 
 const Header = ({ siteTitle }) => (
-  <header>
-    <div className="flex items-center justify-between max-w-2xl mx-auto p-4">
-      <div className="flex items-center justify-between w-full md:w-auto">
+  <header className="md:flex max-w-2xl mx-auto w-full">
+    <div className="flex items-center justify-between mx-auto p-4">
+      <div className="flex items-center justify-between w-full">
         <Link
           to="/"
           className="flex items-center no-underline text-grey-darkest"
@@ -36,20 +36,22 @@ const Header = ({ siteTitle }) => (
           </svg>
         </button>
       </div>
-
-      <nav id="nav" className="hidden md:flex md:items-center w-full md:w-auto">
-        <NavLink link="/" title="First" />
-        <NavLink link="/" title="Second" />
-        <NavLink link="/" title="Third" />
-      </nav>
     </div>
+    <nav
+      id="nav"
+      className="hidden md:flex md:items-center mx-auto w-full md:w-auto"
+    >
+      <NavLink link="/" title="First" />
+      <NavLink link="/" title="Second" />
+      <NavLink link="/" title="Third" />
+    </nav>
   </header>
 );
 
 const NavLink = props => (
   <Link
     to={props.link}
-    className="block md:inline-block font-bold ml-4 no-underline uppercase text-grey-darkest"
+    className="block md:inline-block border-t md:border-0 font-bold no-underline px-6 py-4 uppercase text-grey-darkest"
   >
     {props.title}
   </Link>
