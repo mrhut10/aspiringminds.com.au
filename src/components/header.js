@@ -11,7 +11,7 @@ const handleClick = ev => {
 };
 
 const Header = ({ siteTitle }) => (
-  <header className="md:flex max-w-2xl mx-auto w-full">
+  <header className="md:flex font-display max-w-2xl mx-auto w-full">
     <div className="flex items-center justify-between mx-auto p-4">
       <div className="flex items-center justify-between w-full">
         <Link
@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => (
       id="nav"
       className="hidden md:flex md:items-center mx-auto w-full md:w-auto"
     >
-      <NavLink link="/" title="First" />
+      <NavLink link="/contact/" title="Contact" />
       <NavLink link="/" title="Second" />
       <NavLink link="/" title="Third" />
     </nav>
