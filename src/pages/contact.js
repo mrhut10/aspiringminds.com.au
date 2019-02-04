@@ -7,22 +7,22 @@ const Contact = () => {
   return (
     <Layout>
       <div className="flex flex-wrap w-full">
-        <div className="mb-4 w-full md:w-2/3">
-          <div className=" bg-blue-0 h-full m-4 mb-8 md:mb-4 px-4 py-8">
+        <div className="w-full md:w-2/3">
+          <div className=" bg-blue-0 h-full m-4 my-0 px-4 py-8">
             <div className="max-w-sm mx-auto w-full">
               <h2 className="md:text-3xl">Info</h2>
             </div>
           </div>
         </div>
-        <div className="mb-4 w-full md:w-1/3">
-          <div className=" bg-blue-9 h-full m-4 mb-8 md:ml-0 md:mb-4 px-4 py-8 text-white">
+        <div className="w-full md:w-1/3">
+          <div className=" bg-blue-9 h-full m-4 my-0 md:ml-0 px-4 py-8 text-white">
             <div className="max-w-sm mx-auto w-full">
               <h2 className="md:text-3xl">Social</h2>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap w-full">
+      <div className="flex flex-wrap-reverse w-full">
         <Form />
         <GetInTouch />
       </div>
@@ -56,7 +56,7 @@ const Form = () => (
 const GetInTouch = () => (
   <div className="mb-4 w-full md:w-1/2">
     <div className="bg-blue-0 h-full m-4 md:ml-0 px-4 py-8">
-      <div className="max-w-sm mx-auto w-full">
+      <div className="leading-normal max-w-sm mx-auto text-xl w-full">
         <h2 className="md:text-3xl">Get in touch</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
@@ -72,18 +72,6 @@ const GetInTouch = () => (
           voluptatem adipisci natus dolor ab in praesentium est libero! Mollitia
           veniam, architecto natus possimus, dolor suscipit nesciunt ex nulla
           aspernatur officia placeat.
-        </p>
-        <p>
-          Nam, ex molestias reprehenderit accusamus repudiandae, aperiam placeat
-          error beatae necessitatibus explicabo eius rerum corrupti, quam ut ea.
-          Excepturi assumenda eius nobis blanditiis qui sequi at unde?
-          Consequatur, omnis atque.
-        </p>
-        <p>
-          Quas nesciunt possimus beatae natus in sit fugiat tenetur quia modi
-          ea, repudiandae similique pariatur commodi ipsam? Voluptate,
-          distinctio facilis? Non velit quisquam sit beatae asperiores, unde
-          quas modi obcaecati!
         </p>
       </div>
     </div>
