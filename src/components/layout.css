@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-display;
+}
+
+h1 + p,
+h2 + p,
+h3 + p {
+  @apply mt-4;
+}
+
+p + p {
+  @apply mt-4;
+}
+
+p {
+  @apply text-lg;
+}
