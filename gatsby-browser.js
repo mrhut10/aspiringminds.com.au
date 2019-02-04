@@ -3,5 +3,5 @@
 // Load Poppins typeface
 require('typeface-poppins');
 
-// Load Nunito typeface
-require('typeface-nunito');
+// Load Quicksand typeface
+require('typeface-quicksand');

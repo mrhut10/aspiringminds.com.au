@@ -195,7 +195,7 @@ module.exports = {
   fonts: {
     display: [
       'Poppins',
-      'Nunito',
+      'Quicksand',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -210,7 +210,7 @@ module.exports = {
       'sans-serif',
     ],
     sans: [
-      'Nunito',
+      'Quicksand',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
