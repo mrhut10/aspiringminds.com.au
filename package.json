@@ -20,7 +20,9 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
-    "tailwindcss": "^0.7.4"
+    "tailwindcss": "^0.7.4",
+    "typeface-nunito": "0.0.54",
+    "typeface-poppins": "0.0.54"
   },
   "devDependencies": {
     "eslint": "^5.12.1",
