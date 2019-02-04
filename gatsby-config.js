@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Boilerplate`,
-    description: `Gatsby starter styled with Tailwind`,
-    siteUrl: `https://github.com/lukebennett88/gatsby-boilerplate`,
+    title: `Aspiring Minds`,
+    description: `Motivate, Educate, Elevate`,
+    siteUrl: `https://www.aspiringminds.com.au`,
     author: `@luke_bennett_`,
   },
   plugins: [
@@ -12,8 +12,8 @@ module.exports = {
         name: `GatsbyJS`,
         short_name: `GatsbyJS`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        background_color: `#63c5ff`,
+        theme_color: `#0043a4`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
