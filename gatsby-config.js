@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: `Aspiring Minds`,
+        short_name: `Aspiring Minds`,
         start_url: `/`,
         background_color: `#63c5ff`,
         theme_color: `#0043a4`,
