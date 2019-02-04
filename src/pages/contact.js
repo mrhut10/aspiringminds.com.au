@@ -16,7 +16,9 @@ const Contact = () => {
         </div>
         <div className="mb-4 w-full md:w-1/3">
           <div className=" bg-blue-9 h-full m-4 mb-8 md:ml-0 md:mb-4 px-4 py-8 text-white">
-            <div className="max-w-sm mx-auto w-full">Social</div>
+            <div className="max-w-sm mx-auto w-full">
+              <h2 className="md:text-3xl">Social</h2>
+            </div>
           </div>
         </div>
       </div>
