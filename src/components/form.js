@@ -99,7 +99,7 @@ export default class Contact extends React.Component {
         </p>
         <p className="flex">
           <button
-            className="bg-blue-7 font-bold font-display inline-block px-4 py-2 no-underline rounded-full shadow text-white text-base tracking-wide uppercase"
+            className="bg-blue-5 hover:bg-blue-4 font-bold font-display inline-block px-4 py-2 no-underline rounded-full shadow text-white text-base tracking-wide uppercase"
             type="submit"
           >
             Send
