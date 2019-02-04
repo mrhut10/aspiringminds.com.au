@@ -95,13 +95,16 @@ let colors = {
   'teal-lighter': '#a0f0ed',
   'teal-lightest': '#e8fffe',
 
-  'blue-darkest': '#12283a',
-  'blue-darker': '#1c3d5a',
-  'blue-dark': '#2779bd',
-  blue: '#3490dc',
-  'blue-light': '#6cb2eb',
-  'blue-lighter': '#bcdefa',
-  'blue-lightest': '#eff8ff',
+  'blue-0': '#e6f6ff',
+  'blue-1': '#bae3ff',
+  'blue-2': '#7cc4fa',
+  'blue-3': '#47a3f3',
+  'blue-4': '#2086eb',
+  'blue-5': '#0967d2',
+  'blue-6': '#0452b5',
+  'blue-7': '#03449e',
+  'blue-8': '#00337d',
+  'blue-9': '#002159',
 
   'indigo-darkest': '#191e38',
   'indigo-darker': '#2f365f',
@@ -190,8 +193,9 @@ module.exports = {
   */
 
   fonts: {
-    condensed: [
-      'Open Sans Condensed',
+    display: [
+      'Poppins',
+      'Nunito',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -206,7 +210,7 @@ module.exports = {
       'sans-serif',
     ],
     sans: [
-      'Open Sans',
+      'Nunito',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
