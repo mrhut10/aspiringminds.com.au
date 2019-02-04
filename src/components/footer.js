@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="p-4">
+  <footer className="border-t p-4">
     <p className="flex font-display font-bold items-center justify-center max-w-2xl mx-auto w-full">
       <span className="mr-1">Website by</span>
       <a
