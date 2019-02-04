@@ -11,40 +11,42 @@ const handleClick = ev => {
 };
 
 const Header = ({ siteTitle }) => (
-  <header className="md:flex font-display max-w-2xl mx-auto w-full">
-    <div className="flex items-center justify-between mx-auto p-4">
-      <div className="flex items-center justify-between w-full">
-        <Link
-          to="/"
-          className="flex items-center no-underline text-grey-darkest"
-        >
-          <img className="h-8 mr-2 w-8" src={Logo} alt="" />
-          <span className="font-bold">{siteTitle}</span>
-        </Link>
-
-        <button
-          className="block md:hidden text-grey-darkest"
-          onClick={handleClick}
-        >
-          <svg
-            className="fill-current h-4 w-4"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
+  <header className="bg-white border-b font-display pin-t shadow sticky">
+    <div className="md:flex w-full">
+      <div className="flex items-center justify-between mx-auto p-4">
+        <div className="flex items-center justify-between w-full">
+          <Link
+            to="/"
+            className="flex items-center no-underline text-grey-darkest"
           >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
+            <img className="h-8 mr-2 w-8" src={Logo} alt="" />
+            <span className="font-bold">{siteTitle}</span>
+          </Link>
+
+          <button
+            className="block md:hidden text-grey-darkest"
+            onClick={handleClick}
+          >
+            <svg
+              className="fill-current h-4 w-4"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
       </div>
+      <nav
+        id="nav"
+        className="hidden md:flex md:items-center mx-auto w-full md:w-auto"
+      >
+        <NavLink link="/contact/" title="Contact" />
+        <NavLink link="/" title="Second" />
+        <NavLink link="/" title="Third" />
+      </nav>
     </div>
-    <nav
-      id="nav"
-      className="hidden md:flex md:items-center mx-auto w-full md:w-auto"
-    >
-      <NavLink link="/contact/" title="Contact" />
-      <NavLink link="/" title="Second" />
-      <NavLink link="/" title="Third" />
-    </nav>
   </header>
 );
 
