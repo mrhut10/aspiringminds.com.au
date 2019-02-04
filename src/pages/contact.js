@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
+import FormConent from '../components/form';
 
 const Contact = () => {
   return (
@@ -24,43 +25,48 @@ const Contact = () => {
 
 const Form = () => (
   <div className="mb-4 w-full md:w-1/2">
-    <div className=" bg-blue-0 h-full m-4 mb-8 md:mb-4 p-4">
-      <h2 className="text-center">How can we help?</h2>
+    <div className=" bg-blue-0 h-full m-4 mb-8 md:mb-4 px-4 py-8">
+      <div className="max-w-sm mx-auto w-full">
+        <h2 className="text-center">How can we help?</h2>
+        <FormConent />
+      </div>
     </div>
   </div>
 );
 
 const GetInTouch = () => (
   <div className="mb-4 w-full md:w-1/2">
-    <div className="bg-blue-0 h-full m-4 md:ml-0 p-4">
-      <h2 className="text-center">Get in touch</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-        nesciunt nobis eum beatae dicta debitis repellendus, soluta ipsam at
-        necessitatibus corrupti aperiam unde laboriosam provident, vero rerum
-        illo, saepe ullam.
-      </p>
-      <p>
-        Saepe, hic minus? Amet ipsum repudiandae officia sit quod id inventore
-        explicabo, nesciunt, aliquam fuga ratione asperiores maxime odio
-        recusandae vitae assumenda fugit nam nobis sunt incidunt illo eaque
-        illum! Magnam, atque delectus! Neque animi ullam, eligendi, quibusdam,
-        voluptatem adipisci natus dolor ab in praesentium est libero! Mollitia
-        veniam, architecto natus possimus, dolor suscipit nesciunt ex nulla
-        aspernatur officia placeat.
-      </p>
-      <p>
-        Nam, ex molestias reprehenderit accusamus repudiandae, aperiam placeat
-        error beatae necessitatibus explicabo eius rerum corrupti, quam ut ea.
-        Excepturi assumenda eius nobis blanditiis qui sequi at unde?
-        Consequatur, omnis atque.
-      </p>
-      <p>
-        Quas nesciunt possimus beatae natus in sit fugiat tenetur quia modi ea,
-        repudiandae similique pariatur commodi ipsam? Voluptate, distinctio
-        facilis? Non velit quisquam sit beatae asperiores, unde quas modi
-        obcaecati!
-      </p>
+    <div className="bg-blue-0 h-full m-4 md:ml-0 px-4 py-8">
+      <div className="max-w-sm mx-auto w-full">
+        <h2 className="text-center">Get in touch</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          nesciunt nobis eum beatae dicta debitis repellendus, soluta ipsam at
+          necessitatibus corrupti aperiam unde laboriosam provident, vero rerum
+          illo, saepe ullam.
+        </p>
+        <p>
+          Saepe, hic minus? Amet ipsum repudiandae officia sit quod id inventore
+          explicabo, nesciunt, aliquam fuga ratione asperiores maxime odio
+          recusandae vitae assumenda fugit nam nobis sunt incidunt illo eaque
+          illum! Magnam, atque delectus! Neque animi ullam, eligendi, quibusdam,
+          voluptatem adipisci natus dolor ab in praesentium est libero! Mollitia
+          veniam, architecto natus possimus, dolor suscipit nesciunt ex nulla
+          aspernatur officia placeat.
+        </p>
+        <p>
+          Nam, ex molestias reprehenderit accusamus repudiandae, aperiam placeat
+          error beatae necessitatibus explicabo eius rerum corrupti, quam ut ea.
+          Excepturi assumenda eius nobis blanditiis qui sequi at unde?
+          Consequatur, omnis atque.
+        </p>
+        <p>
+          Quas nesciunt possimus beatae natus in sit fugiat tenetur quia modi
+          ea, repudiandae similique pariatur commodi ipsam? Voluptate,
+          distinctio facilis? Non velit quisquam sit beatae asperiores, unde
+          quas modi obcaecati!
+        </p>
+      </div>
     </div>
   </div>
 );
