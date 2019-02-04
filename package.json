@@ -4,8 +4,10 @@
   "version": "1.0.0",
   "author": "Luke Bennett <taylor@bryant.io>",
   "dependencies": {
+    "@emotion/core": "^10.0.6",
     "gatsby": "^2.0.106",
     "gatsby-image": "^2.0.29",
+    "gatsby-plugin-emotion": "^4.0.3",
     "gatsby-plugin-manifest": "^2.0.15",
     "gatsby-plugin-netlify": "^2.0.7",
     "gatsby-plugin-offline": "^2.0.22",
@@ -21,8 +23,8 @@
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
     "tailwindcss": "^0.7.4",
-    "typeface-poppins": "0.0.54",
-    "typeface-quicksand": "0.0.71"
+    "typeface-nunito": "0.0.54",
+    "typeface-poppins": "0.0.54"
   },
   "devDependencies": {
     "eslint": "^5.12.1",
