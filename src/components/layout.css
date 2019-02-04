@@ -17,7 +17,3 @@ h3 + p {
 p + p {
   @apply mt-4;
 }
-
-p {
-  @apply text-lg;
-}
