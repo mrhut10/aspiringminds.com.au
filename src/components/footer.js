@@ -2,9 +2,12 @@ import React from 'react';
 
 const Footer = () => (
   <footer className="border-t p-4">
-    <p className="flex font-display font-bold items-center justify-center w-full">
-      <span className="mr-1">Website by</span>
-      <a href="https://phirannodesigns.com.au">Phiranno Designs</a>
+    <p className="flex font-display font-bold items-center justify-between w-full">
+      <div>Aspiring Minds © {new Date().getFullYear()}</div>
+      <div>
+        <span className="mr-1">&nbsp;Website by</span>
+        <a href="https://phirannodesigns.com.au">Phiranno Designs</a>
+      </div>
     </p>
 
     {/* <a
@@ -25,13 +28,5 @@ const Footer = () => (
     </a> */}
   </footer>
 );
-
-{
-  /* <footer>
-  © {new Date().getFullYear()}, Built with
-  {` `}
-  <a href="https://www.gatsbyjs.org">Gatsby</a>
-</footer> */
-}
 
 export default Footer;
