@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import FormConent from '../components/form';
+import FormContent from '../components/form';
 
 const Contact = () => {
   return (
@@ -47,7 +47,7 @@ const Form = () => (
     <div className=" bg-blue-9 h-full m-4 md:mb-4 px-4 py-8 text-white">
       <div className="max-w-sm mx-auto w-full">
         <h2 className="md:text-3xl">How can we help?</h2>
-        <FormConent />
+        <FormContent />
       </div>
     </div>
   </div>

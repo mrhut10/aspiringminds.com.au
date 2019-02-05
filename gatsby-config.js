@@ -1,45 +1,80 @@
 module.exports = {
   siteMetadata: {
-    title: `Aspiring Minds`,
-    description: `Motivate, Educate, Elevate`,
-    siteUrl: `https://www.aspiringminds.com.au`,
-    author: `@luke_bennett_`,
+    title: 'Aspiring Minds',
+    author: 'Meredith Ryals',
+    description: 'Motivate, Educate, Elevate.',
+    // siteUrl: 'https://www.aspiringminds.com.au',
+    social: {
+      facebook: 'aspiringminds',
+    },
   },
   plugins: [
-    `gatsby-plugin-emotion`,
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `Aspiring Minds`,
-        short_name: `Aspiring Minds`,
-        start_url: `/`,
-        background_color: `#63c5ff`,
-        theme_color: `#0043a4`,
-        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
-        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
-        display: `standalone`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        path: `${__dirname}/content/blog`,
+        name: 'blog',
       },
     },
-    `gatsby-plugin-postcss`,
     {
-      resolve: `gatsby-plugin-purgecss`,
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/content/assets`,
+        name: 'assets',
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 590,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-responsive-iframe',
+            options: {
+              wrapperStyle: 'margin-bottom: 1.0725rem',
+            },
+          },
+          'gatsby-remark-prismjs',
+          'gatsby-remark-copy-linked-files',
+          'gatsby-remark-smartypants',
+        ],
+      },
+    },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-postcss',
+    {
+      resolve: 'gatsby-plugin-purgecss',
       options: {
         tailwind: true,
-        purgeOnly: [`src/css/style.css`], // Purge only tailwind
+        purgeOnly: ['src/css/style.css'], // Purge only tailwind
       },
     },
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-sitemap`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        //trackingId: 'ADD YOUR TRACKING ID HERE',
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-netlify`, // Must me last plugin
+    'gatsby-plugin-feed',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Aspiring Minds',
+        short_name: 'Aspiring Minds',
+        start_url: '/',
+        background_color: '#63c5ff',
+        theme_color: '#0043a4',
+        display: 'minimal-ui',
+        icon: 'content/assets/icon.png',
+      },
+    },
+    'gatsby-plugin-offline',
+    'gatsby-plugin-react-helmet',
   ],
 };

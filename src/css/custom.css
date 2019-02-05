@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  @apply font-sans leading-normal text-lg;
+}
+
 h1,
 h2,
 h3 {
@@ -16,4 +20,8 @@ h3 + p {
 
 p + p {
   @apply mt-4;
+}
+
+a {
+  @apply font-bold no-underline text-blue-6;
 }

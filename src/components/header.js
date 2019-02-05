@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Logo from '../images/icon.png';
+import Logo from '../../content/assets/icon.png';
 
 const handleClick = ev => {
   ev.preventDefault();
@@ -48,8 +48,7 @@ const Header = () => (
         className="hidden md:flex flex-1 md:items-center justify-end px-4 w-full md:w-auto"
       >
         <NavLink link="/contact/" title="Contact" />
-        <NavLink link="/" title="Second" />
-        <NavLink link="/" title="Third" />
+        <NavLink link="/blog/" title="Blog" />
       </nav>
     </div>
   </header>
