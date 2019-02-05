@@ -21,7 +21,7 @@ const Header = () => (
             to="/"
             className="flex items-center no-underline text-grey-darkest"
           >
-            <img className="h-8 mr-2 w-8" src={Logo} alt="" />
+            <img className="h-auto mr-2 w-8" src={Logo} alt="" />
             <div className="font-bold">
               <span className="font-normal">Aspiring</span>
               <span className="font-bold"> Minds</span>
