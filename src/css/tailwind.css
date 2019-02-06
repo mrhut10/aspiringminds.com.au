@@ -61,6 +61,10 @@
   * @import "utilities/skew-transforms";
   */
 
+:root {
+  --header-height: 60px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -92,6 +96,10 @@ a {
   @apply font-bold no-underline text-blue-6;
 }
 
+.header {
+  height: var(--header-height);
+}
+
 .overline {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -115,4 +123,13 @@ a {
 .overline:focus:before,
 .overline:active:before {
   right: 0;
+}
+
+.gradient {
+  background: linear-gradient(125deg, #0967d2, #00337d);
+}
+
+.btn:hover {
+  bottom: 2px;
+  @apply shadow-lg;
 }
