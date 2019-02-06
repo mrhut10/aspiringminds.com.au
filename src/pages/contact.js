@@ -15,7 +15,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-full md:w-1/3">
-          <div className=" bg-blue-9 h-full m-4 my-0 md:ml-0 px-4 py-8 text-white">
+          <div className="bg-blue-9 h-full m-4 my-0 md:ml-0 px-4 py-8 text-white">
             <div className="max-w-sm mx-auto w-full">
               <h2 className="md:text-3xl">Social</h2>
             </div>
@@ -44,7 +44,7 @@ const Contact = () => {
 
 const Form = () => (
   <div className="mb-4 md:mb-0 w-full md:w-1/2">
-    <div className=" bg-blue-9 h-full m-4 md:mb-4 px-4 py-8 text-white">
+    <div className="bg-blue-9 h-full m-4 md:mb-4 px-4 py-8 text-white">
       <div className="max-w-sm mx-auto w-full">
         <h2 className="md:text-3xl">How can we help?</h2>
         <FormContent />
