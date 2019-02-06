@@ -12,7 +12,7 @@ const handleClick = ev => {
 const Header = () => (
   <header
     css={{ background: `hsla(360, 100%, 100%, .95)` }}
-    className="header bg-white border-b font-display pin-t sticky z-10"
+    className="header bg-white font-display pin-t sticky z-10"
   >
     <div className="md:flex h-full w-full">
       <div className="flex h-full items-center">
@@ -41,13 +41,46 @@ const Header = () => (
       </div>
       <nav
         id="nav"
-        className=" bg-white border-b md:border-none hidden md:flex flex-1 md:items-center justify-end w-full md:w-auto"
+        className="bg-white border-b md:border-none hidden md:flex flex-1 md:items-center justify-end w-full md:w-auto"
       >
+        <div className="hidden xl:flex">
+          <NavLink link="/" title="Home" />
+        </div>
         <NavLink link="/about" title="About" />
-        <NavLink link="/our-approach" title="Our approach" />
+        <NavLink link="/our-approach" title="Our&nbsp;Approach" />
         <NavLink link="/services" title="Services" />
         <NavLink link="/contact" title="Contact" />
         <NavLink link="/blog" title="Blog" />
+        <a
+          className="hidden xl:flex items-center pl-6 py-4"
+          href="tel:0412522849"
+        >
+          <span className="flex mr-3">0412&nbsp;522&nbsp;849</span>
+          <span className="flex">
+            <svg
+              clipRule="evenodd"
+              fillRule="evenodd"
+              strokeLinejoin="round"
+              strokeMiterlimit="1.41421"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+              className="flex w-6 h-6 mr-4"
+            >
+              <path
+                className="fill-current text-blue-4"
+                d="M2 0h4c.473 0 .885.336.98.8l1 5c.065.326-.036.664-.27.9L5.19 9.22c1.181 2.438 3.152 4.409 5.59 5.59l2.51-2.52c.236-.234.574-.335.9-.27l5 1c.47.1.81.5.81.98v4c0 1.097-.903 2-2 2h-2C7.223 20 0 12.777 0 4V2C0 .9.9 0 2 0z"
+                fillRule="nonzero"
+              />
+              <path
+                className="fill-current text-blue-2"
+                d="M12.7 8.7c-.173.13-.384.2-.6.2-.549 0-1-.451-1-1 0-.216.07-.427.2-.6L15.58 3H13c-.549 0-1-.451-1-1 0-.549.451-1 1-1h5c.549 0 1 .451 1 1v5c0 .549-.451 1-1 1-.549 0-1-.451-1-1V4.41l-4.3 4.3V8.7z"
+                fillRule="nonzero"
+              />
+            </svg>
+          </span>
+
+          <span />
+        </a>
       </nav>
     </div>
   </header>
