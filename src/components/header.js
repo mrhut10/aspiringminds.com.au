@@ -15,13 +15,13 @@ const Header = () => (
     className="bg-white border-b font-display pin-t sticky z-10"
   >
     <div className="md:flex w-full">
-      <div className="flex items-center p-4">
+      <div className="flex items-center px-4">
         <div className="flex items-center justify-between w-full">
           <Link
             to="/"
             className="flex items-center no-underline text-grey-darkest"
           >
-            <img className="h-auto mr-2 w-64" src={Logo} alt="" />
+            <img className="h-12 mr-2" src={Logo} alt="" />
           </Link>
 
           <button
@@ -56,7 +56,7 @@ const Header = () => (
 const NavLink = props => (
   <Link
     to={props.link}
-    className="block md:inline-block border-t md:border-0 font-bold no-underline px-6 py-4 text-grey-darkest"
+    className="overline block md:inline-block border-t md:border-0 font-bold no-underline px-6 py-4 text-grey-darkest"
   >
     {props.title}
   </Link>
