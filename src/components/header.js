@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Logo from '../../content/assets/icon.png';
+import Logo from '../../content/assets/icon.svg';
 
 const handleClick = ev => {
   ev.preventDefault();
@@ -21,11 +21,7 @@ const Header = () => (
             to="/"
             className="flex items-center no-underline text-grey-darkest"
           >
-            <img className="h-auto mr-2 w-8" src={Logo} alt="" />
-            <div className="font-bold">
-              <span className="font-normal">Aspiring</span>
-              <span className="font-bold"> Minds</span>
-            </div>
+            <img className="h-auto mr-2 w-64" src={Logo} alt="" />
           </Link>
 
           <button
