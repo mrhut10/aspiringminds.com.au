@@ -6,6 +6,8 @@ import Cards from '../components/cards';
 import Footer from '../components/footer';
 import SEO from '../components/seo';
 
+import '../css/tailwind.css';
+
 const IndexPage = () => (
   <div className="bg-white flex flex-col font-sans min-h-screen text-grey-darkest">
     <SEO
