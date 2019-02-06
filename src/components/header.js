@@ -12,20 +12,20 @@ const handleClick = ev => {
 const Header = () => (
   <header
     css={{ background: `hsla(360, 100%, 100%, .95)` }}
-    className="bg-white border-b font-display pin-t sticky z-10"
+    className="header bg-white border-b font-display pin-t sticky z-10"
   >
-    <div className="md:flex w-full">
-      <div className="flex items-center px-4">
+    <div className="md:flex h-full w-full">
+      <div className="flex h-full items-center">
         <div className="flex items-center justify-between w-full">
           <Link
             to="/"
-            className="flex items-center no-underline text-grey-darkest"
+            className="flex items-center ml-4 no-underline text-grey-darkest"
           >
             <img className="h-12 mr-2" src={Logo} alt="" />
           </Link>
 
           <button
-            className="block md:hidden text-grey-darkest"
+            className="flex md:hidden p-3 text-grey-darkest"
             onClick={handleClick}
           >
             <svg
@@ -41,7 +41,7 @@ const Header = () => (
       </div>
       <nav
         id="nav"
-        className="hidden md:flex flex-1 md:items-center justify-end px-4 w-full md:w-auto"
+        className=" bg-white border-b md:border-none hidden md:flex flex-1 md:items-center justify-end w-full md:w-auto"
       >
         <NavLink link="/about" title="About" />
         <NavLink link="/our-approach" title="Our approach" />
@@ -56,7 +56,7 @@ const Header = () => (
 const NavLink = props => (
   <Link
     to={props.link}
-    className="overline block md:inline-block border-t md:border-0 font-bold no-underline px-6 py-4 text-grey-darkest hover:text-blue-6"
+    className="overline block md:inline-block border-t md:border-0 font-bold no-underline px-6 py-4 text-grey-darker hover:text-blue-6"
   >
     {props.title}
   </Link>
