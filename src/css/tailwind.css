@@ -35,7 +35,6 @@
 * @import "components/buttons";
 * @import "components/forms";
 */
-@import './custom.css';
 
 /**
   * This injects all of Tailwind's utility classes, generated based on your
@@ -78,7 +77,10 @@ h3 {
 
 h1 + p,
 h2 + p,
-h3 + p {
+h3 + p,
+h1 + ul,
+h2 + ul,
+h3 + ul {
   @apply mt-4;
 }
 
