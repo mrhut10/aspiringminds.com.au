@@ -56,7 +56,7 @@ const Header = () => (
 const NavLink = props => (
   <Link
     to={props.link}
-    className="overline block md:inline-block border-t md:border-0 font-bold no-underline px-6 py-4 text-grey-darkest"
+    className="overline block md:inline-block border-t md:border-0 font-bold no-underline px-6 py-4 text-grey-darkest hover:text-blue-6"
   >
     {props.title}
   </Link>
