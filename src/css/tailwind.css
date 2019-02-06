@@ -66,7 +66,7 @@ html {
 }
 
 body {
-  @apply font-sans leading-normal text-lg;
+  @apply bg-blue-6 font-sans leading-normal text-lg;
 }
 
 h1,
