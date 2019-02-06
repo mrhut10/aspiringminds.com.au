@@ -1,9 +1,11 @@
 import React from 'react';
 import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const About = () => {
   return (
     <Layout>
+      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
       <h1>About</h1>
       <p>
         Aspiring Minds Educational Intervention (Aspiring Minds) has emerged

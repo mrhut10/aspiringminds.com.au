@@ -1,9 +1,14 @@
 import React from 'react';
 import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const OurApproach = () => {
   return (
     <Layout>
+      <SEO
+        title="Our approach"
+        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+      />
       <h1>Our approach</h1>
       <p>
         At Aspiring Minds we recognise that our students are individuals and
