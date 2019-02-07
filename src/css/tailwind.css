@@ -80,6 +80,7 @@ h1,
 h2,
 h3 {
   @apply font-display;
+  @apply leading-tight;
 }
 
 h1 + p,
@@ -124,14 +125,14 @@ a {
   @apply pin-l;
   @apply pin-t;
 }
-.overline:hover::after,
+.overline:active::after,
 .overline:focus::after,
-.overline:active::after {
+.overline:hover::after {
   right: 0;
 }
 
 .hero {
-  height: calc(100vh - var(--header-height));
+  min-height: calc(100vh - var(--header-height));
 }
 
 .gradient {
@@ -143,16 +144,20 @@ a {
   @apply shadow-lg;
 }
 
+.skew {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 3vw));
+}
+
 .cards {
+  --margin: 1rem;
+  --modifier: calc(55rem - 100%);
   display: flex;
   flex-wrap: wrap;
-  --margin: 1rem;
-  --modifier: calc(40rem - 100%);
-  margin: calc(var(--margin) * -1);
 }
 
 .cards > * {
-  flex-grow: 1;
   flex-basis: calc(var(--modifier) * 999);
+  flex-grow: 1;
   margin: var(--margin);
+  @apply flex items-center justify-center;
 }
