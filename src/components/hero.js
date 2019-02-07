@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from './button'
-import Phone from '../../content/assets/phone.svg'
+import Button from './button';
+import Phone from '../../content/assets/phone.svg';
 import Image from '../../content/assets/woman-and-child.svg';
 
 const Hero = () => {
@@ -18,8 +18,9 @@ const Hero = () => {
             dignissimos reiciendis ipsam et?
           </p>
           <Button
-          svg={Phone}
-          title="0412 522 849"
+            svg={Phone}
+            link="tel:0412522849"
+            title="0412&nbsp;522&nbsp;849"
           />
         </div>
         <div className="flex items-center justify-center p-4 md:p-8 w-full sm:w-1/2">
