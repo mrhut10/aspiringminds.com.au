@@ -10,10 +10,7 @@ const handleClick = ev => {
 };
 
 const Header = () => (
-  <header
-    css={{ background: `hsla(360, 100%, 100%, .95)` }}
-    className="header bg-white font-display pin-t sticky z-10"
-  >
+  <header className="header bg-smokey-white font-display pin-t sticky z-10">
     <div className="md:flex h-full w-full">
       <div className="flex h-full items-center">
         <div className="flex items-center justify-between w-full">
@@ -41,7 +38,7 @@ const Header = () => (
       </div>
       <nav
         id="nav"
-        className="bg-white border-b md:border-none hidden md:flex flex-1 md:items-center justify-end w-full md:w-auto"
+        className="bg-smokey-white border-b md:border-none hidden md:flex flex-1 md:items-center justify-end w-full md:w-auto"
       >
         <div className="hidden xl:flex">
           <NavLink link="/" title="Home" />
