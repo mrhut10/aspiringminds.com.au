@@ -10,6 +10,7 @@ import SEO from '../components/seo';
 
 import Phone from '../../content/assets/phone.svg';
 import Mail from '../../content/assets/mail.svg';
+import Contact from '../../content/assets/contact.svg';
 
 import '../css/tailwind.css';
 
@@ -30,29 +31,33 @@ const IndexPage = () => (
     </Skew>
     <Cards />
     <Skew>
-      <div className="text-xl">
-        <h2 className="text-5xl">Contact us for any further enquires</h2>
-        <Button link="/contact" title="Contact" />
+      <div className=" md:text-center text-xl uppercase">
+        <h2 className="md:text-5xl normal-case">
+          Contact us for any further enquires
+        </h2>
+        <Button svg={Contact} link="/contact" title="Contact" />
       </div>
     </Skew>
     <Skew>
-      <div className="text-xl">
-        <h2 className="text-5xl">For more information, please email us</h2>
+      <div className=" md:text-center text-xl">
+        <h2 className="md:text-5xl">
+          Call us today to give your child a brighter future
+        </h2>
         <Button
-          svg={Mail}
-          link="mailto:mryals@aspiringminds.com.au"
-          title="mryals@aspiringminds.com.au"
+          svg={Phone}
+          link="tel:0412522849"
+          title="0412&nbsp;522&nbsp;849"
         />
       </div>
     </Skew>
     <br />
     <Skew>
-      <div className="text-xl">
-        <h2 className="text-5xl">Call us today for a free consultation</h2>
+      <div className=" md:text-center text-xl">
+        <h2 className="md:text-5xl">For more information, please email us</h2>
         <Button
-          svg={Phone}
-          link="tel:0412522849"
-          title="0412&nbsp;522&nbsp;849"
+          svg={Mail}
+          link="mailto:mryals@aspiringminds.com.au"
+          title="mryals@aspiringminds.com.au"
         />
       </div>
     </Skew>
