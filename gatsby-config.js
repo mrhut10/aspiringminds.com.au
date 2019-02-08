@@ -66,6 +66,12 @@ module.exports = {
         icon: `content/assets/icon.svg`,
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-canonical-urls`,
+    //   options: {
+    //     siteUrl: `https://www.aspiringminds.com.au`,
+    //   },
+    // },
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,
