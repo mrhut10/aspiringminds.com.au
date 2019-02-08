@@ -9,7 +9,7 @@ const OurApproach = () => {
         title="Our approach"
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
-      <h1>Our approach</h1>
+      <h1>Our Approach</h1>
       <p>
         At Aspiring Minds we recognise that our students are individuals and
         therefore seek to:
