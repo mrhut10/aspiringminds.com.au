@@ -8,7 +8,7 @@ import '../css/tailwind.css';
 const Layout = ({ children }) => (
   <div className="bg-white flex flex-col font-sans min-h-screen text-grey-darkest">
     <Header />
-    <main className="flex flex-col flex-1 max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
+    <main className="flex flex-col flex-1 max-w-md mx-auto px-4 py-8 md:p-8 w-full">
       {children}
     </main>
     <Footer />
