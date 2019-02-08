@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Logo from '../../content/assets/icon.svg';
+import Logo from './logo';
 
 const handleClick = ev => {
   ev.preventDefault();
@@ -18,7 +18,10 @@ const Header = () => (
             to="/"
             className="flex items-center ml-4 no-underline text-grey-darkest"
           >
-            <img className="h-12 mr-2" src={Logo} alt="" />
+            <Logo />
+            <h1 className="leading-none ml-2 text-center text-2xl">
+              Aspiring Minds
+            </h1>
           </Link>
 
           <button
@@ -38,7 +41,7 @@ const Header = () => (
       </div>
       <nav
         id="nav"
-        className="bg-smokey-white border-b md:border-none hidden md:flex flex-1 md:items-center justify-end w-full md:w-auto"
+        className="bg-smokey-white border-b md:border-none hidden md:flex flex-1 font-sans md:items-center justify-end w-full md:w-auto"
       >
         <div className="hidden xl:flex">
           <NavLink link="/" title="Home" />
@@ -49,7 +52,7 @@ const Header = () => (
         <NavLink link="/contact" title="Contact" />
         <NavLink link="/blog" title="Blog" />
         <a
-          className="hidden xl:flex items-center pl-6 py-4"
+          className="hidden xl:flex font-display items-center pl-6 py-4"
           href="tel:0412522849"
         >
           <span className="flex mr-3">0412&nbsp;522&nbsp;849</span>
