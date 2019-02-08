@@ -3,10 +3,16 @@ import React from 'react';
 const Footer = () => (
   <footer className="p-4 text-sm">
     <p className="flex items-center justify-center w-full">
-      <div>Aspiring Minds © {new Date().getFullYear()} &bull;</div>
+      <div>Aspiring Minds © {new Date().getFullYear()}</div>
+      <div className="mx-2">&bull;</div>
       <div>
-        <span className="font-bold mr-1">&nbsp;Website by</span>
-        <a href="https://phirannodesigns.com.au" rel="nofollow" target="_blank">
+        <span className="mr-1">Website by</span>
+        <a
+          className="font-bold"
+          href="https://phirannodesigns.com.au"
+          rel="nofollow"
+          target="_blank"
+        >
           Phiranno Designs
         </a>
       </div>
