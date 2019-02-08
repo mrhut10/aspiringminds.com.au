@@ -63,7 +63,7 @@ const Header = () => (
               strokeMiterlimit="1.41421"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
-              className="flex w-6 h-6"
+              className="flex h-6 w-6 wobble"
             >
               <path
                 className="fill-current"
