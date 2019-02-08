@@ -130,8 +130,8 @@ a {
 .overline {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  overflow: hidden;
+  @apply overflow-hidden;
+  @apply relative;
 }
 .overline::after {
   content: '';
@@ -149,7 +149,7 @@ a {
 .overline:active::after,
 .overline:focus::after,
 .overline:hover::after {
-  right: 0;
+  @apply pin-r;
 }
 
 .hero {
@@ -172,13 +172,15 @@ a {
 .cards {
   --margin: 1rem;
   --modifier: calc(55rem - 100%);
-  display: flex;
-  flex-wrap: wrap;
+  @apply flex;
+  @apply flex-wrap;
 }
 
 .cards > * {
   flex-basis: calc(var(--modifier) * 999);
-  flex-grow: 1;
   margin: var(--margin);
-  @apply flex items-center justify-center;
+  @apply flex-grow;
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
 }
