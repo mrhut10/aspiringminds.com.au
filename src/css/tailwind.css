@@ -134,6 +134,7 @@ a {
 
 .wobble {
   animation: wobble 0.8s both;
+  animation-delay: 2s;
 }
 
 @keyframes wobble {
@@ -186,6 +187,21 @@ a {
 
 .hero {
   min-height: calc(100vh - var(--header-height));
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.7s forwards 0s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(2em);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .gradient {

@@ -5,7 +5,7 @@ import Image from '../../content/assets/woman-and-child.svg';
 
 const Hero = () => {
   return (
-    <section className="hero flex flex-col flex-1 justify-center mb-16 w-full">
+    <section className="fade-in-up hero flex flex-col flex-1 justify-center mb-16 w-full">
       <div className="flex flex-wrap p-4 md:p-8">
         <div className="flex flex-col items-center justify-center max-w-sm mx-auto text-xl mflex items-center justify-center d:text-2xl w-full sm:w-1/2">
           <h1 className="mb-2 md:text-5xl">
