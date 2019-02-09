@@ -55,7 +55,7 @@ export default class Contact extends React.Component {
           <label className="block font-bold mb-6 text-xs tracking-wide uppercase">
             <span className="block font-display mb-2">Full name:</span>
             <input
-              className="appearance-none bg-grey-lighter block border leading-tight px-4 py-3 rounded-none text-base w-full focus:bg-white focus:border-blue-5 focus:outline-none hover:bg-white"
+              className="appearance-none bg-blue-0 block border leading-tight px-4 py-3 rounded-none text-base w-full focus:bg-white focus:border-blue-5 focus:outline-none hover:bg-white"
               type="text"
               name="name"
               required
@@ -67,7 +67,7 @@ export default class Contact extends React.Component {
           <label className="block font-bold mb-6 text-xs tracking-wide uppercase">
             <span className="block font-display mb-2">Phone number:</span>
             <input
-              className="appearance-none bg-grey-lighter block border leading-tight px-4 py-3 rounded-none text-base w-full focus:bg-white focus:border-blue-5 focus:outline-none hover:bg-white"
+              className="appearance-none bg-blue-0 block border leading-tight px-4 py-3 rounded-none text-base w-full focus:bg-white focus:border-blue-5 focus:outline-none hover:bg-white"
               type="text"
               name="phone"
               required
@@ -79,7 +79,7 @@ export default class Contact extends React.Component {
           <label className="block font-bold mb-6 text-xs tracking-wide uppercase">
             <span className="block font-display mb-2">Email address:</span>
             <input
-              className="appearance-none bg-grey-lighter block border leading-tight px-4 py-3 rounded-none text-base w-full focus:bg-white focus:border-blue-5 focus:outline-none hover:bg-white"
+              className="appearance-none bg-blue-0 block border leading-tight px-4 py-3 rounded-none text-base w-full focus:bg-white focus:border-blue-5 focus:outline-none hover:bg-white"
               type="email"
               name="email"
               onChange={this.handleChange}
@@ -90,7 +90,7 @@ export default class Contact extends React.Component {
           <label className="block font-bold mb-6 text-xs tracking-wide uppercase">
             <span className="block font-display mb-2">Message:</span>
             <textarea
-              className="appearance-none bg-grey-lighter block border h-48 leading-tight px-4 py-3 rounded-none text-base text-grey-darker w-full focus:bg-white focus:border-blue-5 focus:outline-none hover:bg-white"
+              className="appearance-none bg-blue-0 block border h-48 leading-tight px-4 py-3 rounded-none text-base text-grey-darker w-full focus:bg-white focus:border-blue-5 focus:outline-none hover:bg-white"
               name="message"
               required
               onChange={this.handleChange}
@@ -99,7 +99,7 @@ export default class Contact extends React.Component {
         </p>
         <p className="flex">
           <button
-            className="bg-blue-5 hover:bg-blue-4 font-bold font-display inline-block px-4 py-2 no-underline rounded-full shadow text-white text-base tracking-wide uppercase"
+            className="btn gradient bg-blue-5 hover:bg-blue-4 flex font-display font-bold items-center justify-center no-underline px-4 py-2 relative rounded-full text-white text-sm md:text-lg tracking-wide uppercase"
             type="submit"
           >
             Send
