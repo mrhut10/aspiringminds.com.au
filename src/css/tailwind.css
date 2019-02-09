@@ -160,29 +160,31 @@ a {
   }
 }
 
-.overline {
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  @apply overflow-hidden;
-  @apply relative;
-}
-.overline::after {
-  content: '';
-  height: 4px;
-  right: 100%;
-  transition-duration: 0.3s;
-  transition-property: right;
-  transition-timing-function: ease-out;
-  z-index: -1;
-  @apply absolute;
-  @apply bg-blue-6;
-  @apply pin-l;
-  @apply pin-t;
-}
-.overline:active::after,
-.overline:focus::after,
-.overline:hover::after {
-  @apply pin-r;
+@screen md {
+  .overline {
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    @apply overflow-hidden;
+    @apply relative;
+  }
+  .overline::after {
+    content: '';
+    height: 4px;
+    right: 100%;
+    transition-duration: 0.3s;
+    transition-property: right;
+    transition-timing-function: ease-out;
+    z-index: -1;
+    @apply absolute;
+    @apply bg-blue-6;
+    @apply pin-l;
+    @apply pin-t;
+  }
+  .overline:active::after,
+  .overline:focus::after,
+  .overline:hover::after {
+    @apply pin-r;
+  }
 }
 
 .hero {
