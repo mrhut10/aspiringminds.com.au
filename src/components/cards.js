@@ -40,7 +40,7 @@ const Card = props => (
   <section className="flex flex-wrap mb-12 p-4">
     <Link className="w-full md:w-1/3" to={props.link}>
       <div className="flex items-center justify-center w-full">
-        <img className="h-48 text-center" src={props.img} alt="" />
+        <img className="text-center" src={props.img} alt="" />
       </div>
     </Link>
     <div className="w-full md:w-2/3">
