@@ -3,7 +3,7 @@ import React from 'react';
 const Logo = () => {
   return (
     <svg
-      className="w-8 py-2 z-10"
+      className="flex-no-shrink py-2 w-8 z-10"
       xmlns="http://www.w3.org/2000/svg"
       fillRule="evenodd"
       strokeLinejoin="round"
