@@ -38,11 +38,13 @@ const Cards = () => {
 };
 
 const Card = props => (
-  <Link className="flex-col p-4" to={props.link}>
-    <img className="h-48" src={props.img} alt="" />
-    <h2 className="mt-8 text-center">{props.title}</h2>
-    <p className="text-grey-darker">{props.body}</p>
-  </Link>
+  <div className="flex-col p-4">
+    <Link to={props.link}>
+      <img className="h-48" src={props.img} alt="" />
+      <h2 className="mt-8 text-center">{props.title}</h2>
+    </Link>
+    <p className="font-normal text-grey-darker">{props.body}</p>
+  </div>
 );
 
 export default Cards;
