@@ -1,50 +1,55 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import About from '../../content/assets/about.svg';
-import Approach from '../../content/assets/approach.svg';
-import Blog from '../../content/assets/blog.svg';
+import AboutImage from '../../content/assets/about.svg';
+import OurApproachImage from '../../content/assets/approach.svg';
+import BlogImage from '../../content/assets/blog.svg';
 
-const Cards = () => {
-  return (
-    <section className="cards w-full">
-      <Card
-        link="/about"
-        img={About}
-        title="About Us"
-        body="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, ipsam
+export const About = () => (
+  <Card
+    link="/about"
+    img={AboutImage}
+    title="About Us"
+    body="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, ipsam
       nesciunt libero quod enim dolorum id esse alias harum assumenda velit
       accusamus ad, corporis magni et tenetur aliquam expedita eius!"
-      />
-      <Card
-        link="/our-approach"
-        img={Approach}
-        title="Our Approach"
-        body="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sequi
+  />
+);
+
+export const OurApproach = () => (
+  <Card
+    link="/our-approach"
+    img={OurApproachImage}
+    title="Our Approach"
+    body="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sequi
         omnis at, numquam totam alias similique debitis nesciunt, dolorum
         error ex excepturi nihil. Magnam libero aspernatur dolores animi,
         laborum accusantium?"
-      />
-      <Card
-        link="/blog"
-        img={Blog}
-        title="Blog"
-        body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        fugit sapiente suscipit aliquam quibusdam eaque debitis, cum ratione
-        totam voluptates. Quaerat pariatur consequatur omnis nulla illum
-        sapiente eius voluptas harum!"
-      />
-    </section>
-  );
-};
-
-const Card = props => (
-  <div className="flex-col p-4">
-    <Link to={props.link}>
-      <img className="h-48" src={props.img} alt="" />
-      <h2 className="mt-8 text-center">{props.title}</h2>
-    </Link>
-    <p className="font-normal text-grey-darker">{props.body}</p>
-  </div>
+  />
 );
 
-export default Cards;
+export const Blog = () => (
+  <Card
+    link="/blog"
+    img={BlogImage}
+    title="Blog"
+    body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis fugit sapiente suscipit aliquam quibusdam eaque debitis, cum ratione totam voluptates. Quaerat pariatur consequatur omnis nulla illum sapiente eius voluptas harum!"
+  />
+);
+
+const Card = props => (
+  <section className="flex flex-wrap mb-12 p-4">
+    <Link className="w-full md:w-1/3" to={props.link}>
+      <div className="flex items-center justify-center w-full">
+        <img className="h-48 text-center" src={props.img} alt="" />
+      </div>
+    </Link>
+    <div className="w-full md:w-2/3">
+      <div className="max-w-md mx-auto w-full">
+        <Link to={props.link}>
+          <h2 className="md:text-4xl mt-8 mb-2 md:mt-0">{props.title}</h2>
+        </Link>
+        <p className="font-normal text-grey-darker">{props.body}</p>
+      </div>
+    </div>
+  </section>
+);

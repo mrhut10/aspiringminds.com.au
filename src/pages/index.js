@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '../components/header';
 import Hero from '../components/hero';
 import Skew from '../components/skew';
-import Cards from '../components/cards';
+import { About, OurApproach, Blog } from '../components/cards';
 import Button from '../components/button';
 import Footer from '../components/footer';
 import SEO from '../components/seo';
@@ -15,7 +15,7 @@ import Contact from '../../content/assets/contact.svg';
 import '../css/tailwind.css';
 
 const IndexPage = () => (
-  <div className="bg-white flex flex-col font-sans min-h-screen text-grey-darkest">
+  <div className="bg-white flex flex-col font-sans max-w-4xl mx-auto min-h-screen text-grey-darkest w-full">
     <SEO
       title="Home page"
       keywords={[`blog`, `gatsby`, `javascript`, `react`]}
@@ -29,7 +29,7 @@ const IndexPage = () => (
         <div>Elevate.</div>
       </div>
     </Skew>
-    <Cards />
+    <About />
     <Skew>
       <div className=" md:text-center text-xl uppercase">
         <h2 className="md:text-5xl normal-case">
@@ -38,6 +38,7 @@ const IndexPage = () => (
         <Button svg={Contact} link="/contact" title="Contact" />
       </div>
     </Skew>
+    <OurApproach className="flex-wrap-reverse" />
     <Skew>
       <div className=" md:text-center text-xl">
         <h2 className="md:text-5xl">
@@ -50,7 +51,7 @@ const IndexPage = () => (
         />
       </div>
     </Skew>
-    <br />
+    <Blog />
     <Skew>
       <div className=" md:text-center text-xl">
         <h2 className="md:text-5xl">For more information, please email us</h2>
