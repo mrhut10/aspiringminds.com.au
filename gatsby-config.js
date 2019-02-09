@@ -30,7 +30,6 @@ module.exports = {
         name: 'markdown-pages',
       },
     },
-    `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
