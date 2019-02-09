@@ -65,6 +65,11 @@
   --header-height: 60px;
 }
 
+::selection {
+  @apply text-white;
+  @apply bg-blue-5;
+}
+
 html {
   scroll-behavior: smooth;
 }
