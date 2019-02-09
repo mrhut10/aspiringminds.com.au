@@ -1,6 +1,7 @@
 ---
 title: New Beginnings
-date: "2015-05-28T22:40:32.169Z"
+author: Meredith Ryals
+date: '2015-05-28T22:40:32.169Z'
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and
@@ -17,7 +18,7 @@ made herself on the way.
 
 - This however showed weasel
 - Well uncritical so misled
-  - this is very interesting
+  - This is very interesting
 - Goodness much until that fluid owl
 
 When she reached the first hills of the **Italic Mountains**, she had a last
@@ -39,9 +40,31 @@ rewritten, then they are still using her.
 > right at the coast of the Semantics, a large language ocean.
 
 It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
+mouth. Even the `all-powerful Pointing` has no control about the blind texts it is
 an almost unorthographic life One day however a small line of blind text by the
 name of Lorem Ipsum decided to leave for the far World of Grammar.
+
+```javascript
+export const pageQuery = graphql`
+  query BlogPostBySlug($slug: String!) {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      id
+      excerpt(pruneLength: 160)
+      html
+      frontmatter {
+        title
+        date(formatString: "MMMM DD, YYYY")
+      }
+    }
+  }
+`;
+```
 
 ### According a funnily until pre-set or arrogant well cheerful
 

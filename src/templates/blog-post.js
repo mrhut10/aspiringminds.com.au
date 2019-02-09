@@ -9,13 +9,18 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
     const siteTitle = this.props.data.site.siteMetadata.title;
+    const Author = this.props.data.site.siteMetadata.author;
     const { previous, next } = this.props.pageContext;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
-        <h1>{post.frontmatter.title}</h1>
-        <p>{post.frontmatter.date}</p>
+        <h1 className="leading-none mb-0">{post.frontmatter.title}</h1>
+        <p>
+          <small>
+            Posted by {Author} on {post.frontmatter.date}
+          </small>
+        </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr />
         <Bio />
