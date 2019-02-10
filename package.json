@@ -53,8 +53,9 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop --open",
-    "start": "npm run develop",
+    "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
     "serve": "gatsby serve",
+    "start": "npm run develop",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   }
 }
