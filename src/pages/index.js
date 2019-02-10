@@ -18,10 +18,7 @@ import '../css/tailwind.css';
 
 const IndexPage = () => (
   <div className="bg-white flex flex-col font-sans max-w-4xl mx-auto min-h-screen text-grey-darkest w-full">
-    <SEO
-      title="Home page"
-      keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-    />
+    <SEO title="Home" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
     <Header />
     <Hero />
     <Skew>
