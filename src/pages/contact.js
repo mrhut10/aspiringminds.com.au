@@ -18,7 +18,7 @@ const ContactPage = () => (
 
 export const Contact = () => (
   <>
-    <div className="flex flex-wrap-reverse mb-4 w-full">
+    <div className="flex flex-wrap mb-4 w-full">
       <GetInTouch />
       <Form />
     </div>
@@ -52,16 +52,64 @@ const GetInTouch = () => (
     <div className="h-full m-4 md:ml-0 px-4 py-8">
       <div className="leading-normal max-w-sm mx-auto text-xl w-full">
         <h2 className="md:text-3xl">Get in touch</h2>
+
         <p>
           Please reach out to us if you have any questions, we'd love to hear
           from you!
         </p>
+
         <p>We will get back to you as soon as possible.</p>
+
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
-          animi, odit cumque dicta tenetur quam in quod iure unde illo
-          repudiandae? Deserunt quo, nam repellat numquam aperiam neque deleniti
-          fuga?
+          <div>
+            <strong className="block font-bold font-display text-xs tracking-wide uppercase">
+              Phone:
+            </strong>
+          </div>
+          <div>
+            <a href="tel:0412522849">0412&nbsp;522&nbsp;849</a>
+          </div>
+        </p>
+
+        <p>
+          <div>
+            <strong className="block font-bold font-display text-xs tracking-wide uppercase">
+              Email:
+            </strong>
+          </div>
+          <div>
+            <a href="mailto:mryals@aspiringminds.com.au">
+              mryals@aspiringminds.com.au
+            </a>
+          </div>
+        </p>
+
+        <p>
+          <strong className="block font-bold font-display text-xs tracking-wide uppercase">
+            Address:
+          </strong>
+          <a href="https://goo.gl/maps/Fk2pQHrmQw12">
+            <p className="mb-0">39 Clifton Drive</p>
+            <p>Port Macquarie</p>
+          </a>
+        </p>
+
+        <p>
+          <strong className="block font-bold font-display mb-2 text-xs tracking-wide uppercase">
+            Hours:
+          </strong>
+          <table>
+            <tbody>
+              <tr>
+                <td>Monday &ndash; Friday</td>
+                <td>9:00am &ndash; 5:00pm</td>
+              </tr>
+              <tr>
+                <td>Weekends</td>
+                <td>Closed</td>
+              </tr>
+            </tbody>
+          </table>
         </p>
       </div>
     </div>
