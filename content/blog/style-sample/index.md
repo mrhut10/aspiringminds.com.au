@@ -7,7 +7,7 @@ layout: single
 title: Style sample
 ---
 
-This is a style sample for a hugo boilerplate website made by [Luke Bennett](https://lukebennett.me). The purpose of this post is to make it easier to style the website by showing all of the common HTML elements in one place.
+This is a style sample for a website made by [Luke Bennett](https://lukebennett.com.au). The purpose of this post is to make it easier to style the website by showing all of the common HTML elements in one place.
 
 This paragraph is for checking line length and showing how text wraps. It has to be very long so that it will wrap even on wide screen devices. Is the text very legible? Should it be larger or smaller? Maybe a different typeface? What about line height of paragraphs, a little too much is better than not enough. Check the margin and padding while you're at it.
 
@@ -19,7 +19,7 @@ What about **bold** text? Maybe some _italics_. Don't forget some nice “curly 
 
 ## Level 2 heading
 
-Here's a bit more text to see what it looks like under a h2.
+Here's a bit more text to see what it looks like under a `h2`.
 
 Does the margin on the top and bottom of the heading look good to you?
 
@@ -76,24 +76,24 @@ Further paragraphs of text. And yet more text.
 
 ### Tables
 
-But here's one anyway:
+Here is what a table will look like:
 
-| Name             | Instruments                                                                         | Period           |
-| ---------------- | ----------------------------------------------------------------------------------- | ---------------- |
-| Josh Homme       | lead vocals, guitar, piano, bass                                                    | `1996 – present` |
-| Troy Van Leeuwen | guitar, lap steel guitar, keyboards, synthesizers, percussion, backing vocals, bass | `2002 – present` |
-| Michael Shuman   | bass, synthesizers, backing vocals                                                  | `2007 – present` |
-| Dean Fertita     | keyboards, synthesizers, guitar, percussion, backing vocals                         | `2007 – present` |
-| Jon Theodore     | drums, percussion, samplers                                                         | `2013 – present` |
+| Name             | Instruments                                                                         | Period         |
+| ---------------- | ----------------------------------------------------------------------------------- | -------------- |
+| Josh Homme       | lead vocals, guitar, piano, bass                                                    | 1996 – present |
+| Troy Van Leeuwen | guitar, lap steel guitar, keyboards, synthesizers, percussion, backing vocals, bass | 2002 – present |
+| Michael Shuman   | bass, synthesizers, backing vocals                                                  | 2007 – present |
+| Dean Fertita     | keyboards, synthesizers, guitar, percussion, backing vocals                         | 2007 – present |
+| Jon Theodore     | drums, percussion, samplers                                                         | 2013 – present |
 
 Former members
 
-| Name              | Instruments                           |               |
-| ----------------- | ------------------------------------- | ------------- |
-| Alfredo Hernández | drums, percussion                     | `1998 – 1999` |
-| Nick Oliveri      | bass, co-lead and backing vocals      | `1998 – 2004` |
-| Mark Lanegan      | co-lead and backing vocals, keyboards | `2001 – 2005` |
-| Dave Grohl        | drums, percussion                     | `2001 – 2002` |
-| Joey Castillo     | drums, percussion                     | `2002 – 2012` |
-| Alain Johannes    | bass, backing vocals, guitars         | `2005 – 2007` |
-| Natasha Shneider  | keyboards, backing vocals             | `2005 – 2006` |
+| Name              | Instruments                           |             |
+| ----------------- | ------------------------------------- | ----------- |
+| Alfredo Hernández | drums, percussion                     | 1998 – 1999 |
+| Nick Oliveri      | bass, co-lead and backing vocals      | 1998 – 2004 |
+| Mark Lanegan      | co-lead and backing vocals, keyboards | 2001 – 2005 |
+| Dave Grohl        | drums, percussion                     | 2001 – 2002 |
+| Joey Castillo     | drums, percussion                     | 2002 – 2012 |
+| Alain Johannes    | bass, backing vocals, guitars         | 2005 – 2007 |
+| Natasha Shneider  | keyboards, backing vocals             | 2005 – 2006 |
