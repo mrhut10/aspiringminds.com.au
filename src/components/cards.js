@@ -17,6 +17,7 @@ export const About = () => (
 
 export const OurApproach = () => (
   <Card
+    reverse
     link="/our-approach"
     img={OurApproachImage}
     title="Our Approach"
@@ -37,10 +38,14 @@ export const Blog = () => (
 );
 
 const Card = props => (
-  <section className="flex flex-wrap mb-12 p-4">
+  <section
+    className={`flex ${
+      props.reverse ? 'flex-row-reverse' : 'flex-row'
+    } flex-wrap mb-12 p-4`}
+  >
     <Link className="w-full md:w-1/3" to={props.link}>
       <div className="flex items-center justify-center w-full">
-        <img className="text-center" src={props.img} alt="" />
+        <img className="text-center w-48 md:w-full" src={props.img} alt="" />
       </div>
     </Link>
     <div className="w-full md:w-2/3">
