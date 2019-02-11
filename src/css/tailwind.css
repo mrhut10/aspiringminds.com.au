@@ -205,8 +205,6 @@ body {
   margin: var(--margin);
   @apply flex-grow;
   @apply flex;
-  @apply items-center;
-  @apply justify-center;
 }
 
 /* purgecss start ignore */
