@@ -26,6 +26,7 @@ const Social = () => (
     <a
       href="https://www.facebook.com/aspiringminds"
       className="border-2 hover:border-blue-5 flex group items-center justify-center p-3 rounded-full w-12"
+      aria-label="Facebook"
     >
       <svg
         className="fill-current text-grey-dark group-hover:text-blue-5 w-full"
@@ -46,6 +47,7 @@ const Social = () => (
     <a
       href="mailto:mryals@aspiringminds.com.au"
       className="border-2 hover:border-blue-5 flex group items-center justify-center mx-6 p-3 rounded-full w-12"
+      aria-label="Email"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -60,6 +62,7 @@ const Social = () => (
     <a
       href="tel:0412522849"
       className="border-2 hover:border-blue-5 flex group items-center justify-center p-3 rounded-full w-12"
+      aria-label="Phone"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

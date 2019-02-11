@@ -43,11 +43,11 @@ const Card = props => (
       props.reverse ? 'flex-row-reverse' : 'flex-row'
     } flex-wrap mb-12 p-4`}
   >
-    <Link className="w-full md:w-1/3" to={props.link}>
+    <div className="w-full md:w-1/3">
       <div className="flex items-center justify-center w-full">
         <img className="text-center w-48 md:w-full" src={props.img} alt="" />
       </div>
-    </Link>
+    </div>
     <div className="w-full md:w-2/3">
       <div className="max-w-md mx-auto w-full">
         <Link to={props.link}>
