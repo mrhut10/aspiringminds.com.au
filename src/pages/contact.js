@@ -98,19 +98,19 @@ const GetInTouch = () => (
           <strong className="block font-bold font-display mb-2 text-xs tracking-wide uppercase">
             Hours:
           </strong>
-          <table>
-            <tbody>
-              <tr>
-                <td>Monday &ndash; Friday</td>
-                <td>9:00am &ndash; 5:00pm</td>
-              </tr>
-              <tr>
-                <td>Weekends</td>
-                <td>Closed</td>
-              </tr>
-            </tbody>
-          </table>
         </p>
+        <table>
+          <tbody>
+            <tr>
+              <td>Monday &ndash; Friday</td>
+              <td>9:00am &ndash; 5:00pm</td>
+            </tr>
+            <tr>
+              <td>Weekends</td>
+              <td>Closed</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
