@@ -17,7 +17,10 @@ import ContactIcon from '../../content/assets/contact.svg';
 import '../css/tailwind.css';
 
 const IndexPage = () => (
-  <div className="bg-white flex flex-col font-sans max-w-4xl mx-auto min-h-screen text-grey-darkest w-full">
+  <div
+    dir="ltr"
+    className="bg-white flex flex-col font-sans max-w-4xl mx-auto min-h-screen text-grey-darkest w-full"
+  >
     <SEO title="Home" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
     <Header />
     <Hero />
