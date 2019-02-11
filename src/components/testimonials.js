@@ -3,62 +3,52 @@ import React from 'react';
 const Testimonials = () => {
   return (
     <section className="px-4 py-16">
-      <h1 className="text-center">Testimonials</h1>
+      <h2 className="mb-8 text-center text-5xl">Testimonials</h2>
       <div className="cards">
-        <div className="flex-col">
-          <h3>First Testimonial</h3>
-          <div className="italic text-grey-darker">
-            <p>
-              "Meredith is a fantastic tutor, my son was failing math, but now
-              he's at the top of his class.
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
-                dolor adipisci necessitatibus, quod enim voluptate nihil
-                architecto quis nisi repudiandae autem cupiditate officiis! In
-                rem sequi, architecto obcaecati at nam?"
-              </p>
-            </p>
-          </div>
-        </div>
+        <Testimonial>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            eius earum maxime possimus doloremque. Dolores at mollitia quod,
+            voluptatum possimus maxime fugit. Eum sequi soluta mollitia magnam
+            dolore molestiae suscipit.
+          </p>
+        </Testimonial>
 
-        <div className="flex-col">
-          <h3>Second Testimonial</h3>
-          <div className="italic text-grey-darker">
-            <p>
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
-              aliquam ea, omnis ipsum molestias praesentium eaque fugiat maiores
-              maxime totam, tenetur esse explicabo dolores ullam reiciendis
-              quidem accusantium earum officia.
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
-                dolor adipisci necessitatibus, quod enim voluptate nihil
-                architecto quis nisi repudiandae autem cupiditate officiis! In
-                rem sequi, architecto obcaecati at nam?"
-              </p>
-            </p>
-          </div>
-        </div>
+        <Testimonial>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            saepe placeat repellat molestias possimus tenetur accusamus hic
+            porro corrupti, cum consequuntur aspernatur dolore veritatis, quam
+            fuga explicabo incidunt fugiat tempora.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            quisquam ut! Earum ex dolores, eveniet enim architecto
+            necessitatibus quisquam! Quo numquam vitae repellendus nobis unde
+            animi, necessitatibus vel. Corporis, blanditiis?
+          </p>
+        </Testimonial>
 
-        <div className="flex-col">
-          <h3>Third Testimonial</h3>
-          <div className="italic text-grey-darker">
-            <p>
-              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
-              doloremque magni obcaecati et culpa eaque hic, dolore quis
-              deleniti! Eos ut odit molestiae aperiam nam officia rerum
-              obcaecati et atque.
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
-                dolor adipisci necessitatibus, quod enim voluptate nihil
-                architecto quis nisi repudiandae autem cupiditate officiis! In
-                rem sequi, architecto obcaecati at nam?"
-              </p>
-            </p>
-          </div>
-        </div>
+        <Testimonial>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic
+            facere eum, excepturi dignissimos, aliquid suscipit tempora aliquam
+            quod, laboriosam debitis. Est dicta eius eveniet mollitia
+            perferendis nobis, quibusdam aliquid!
+          </p>
+        </Testimonial>
       </div>
     </section>
   );
 };
+
+const Testimonial = props => (
+  <div>
+    <div>
+      <h3>First Testimonial</h3>
+      <div className="italic text-grey-darker">{props.children}</div>
+    </div>
+  </div>
+);
 
 export default Testimonials;
