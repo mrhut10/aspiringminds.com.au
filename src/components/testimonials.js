@@ -5,7 +5,7 @@ const Testimonials = () => {
     <section className="px-4 py-16">
       <h2 className="mb-8 text-center text-5xl">Testimonials</h2>
       <div className="cards">
-        <Testimonial>
+        <Testimonial name="Jen">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
             eius earum maxime possimus doloremque. Dolores at mollitia quod,
@@ -14,7 +14,7 @@ const Testimonials = () => {
           </p>
         </Testimonial>
 
-        <Testimonial>
+        <Testimonial name="Catherine">
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
             saepe placeat repellat molestias possimus tenetur accusamus hic
@@ -29,7 +29,7 @@ const Testimonials = () => {
           </p>
         </Testimonial>
 
-        <Testimonial>
+        <Testimonial name="Andrew">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi hic
             facere eum, excepturi dignissimos, aliquid suscipit tempora aliquam
@@ -45,7 +45,7 @@ const Testimonials = () => {
 const Testimonial = props => (
   <div>
     <div>
-      <h3>First Testimonial</h3>
+      <h3 className="text-center">{props.name}</h3>
       <div className="italic text-grey-darker">{props.children}</div>
     </div>
   </div>
