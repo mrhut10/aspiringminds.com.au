@@ -3,7 +3,7 @@ module.exports = {
     title: `Aspiring Minds`,
     author: `Meredith Ryals`,
     description: `Motivate, Educate, Elevate.`,
-    // siteUrl: `https://www.aspiringminds.com.au`,
+    siteUrl: `https://www.aspiringminds.com.au`,
     social: {
       facebook: `aspiringminds`,
     },
@@ -53,7 +53,7 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    // `gatsby-plugin-feed`,
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -66,12 +66,12 @@ module.exports = {
         icon: `content/assets/icon.svg`,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-canonical-urls`,
-    //   options: {
-    //     siteUrl: `https://www.aspiringminds.com.au`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.aspiringminds.com.au`,
+      },
+    },
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,
