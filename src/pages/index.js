@@ -25,11 +25,11 @@ const IndexPage = () => (
     <Header />
     <Hero />
     <Skew>
-      <div className="cards items-center justify-around text-center w-full">
-        <div>Motivate.</div>
-        <div>Educate.</div>
-        <div>Elevate.</div>
-      </div>
+      <h2 className="cards items-center justify-around leading-none m-0 text-3xl w-full">
+        <div className="flex justify-center">Motivate.</div>
+        <div className="flex justify-center">Educate.</div>
+        <div className="flex justify-center">Elevate.</div>
+      </h2>
     </Skew>
     <About />
     <Skew>
