@@ -12,7 +12,6 @@ const Footer = () => (
           className="font-bold"
           href="https://phirannodesigns.com.au"
           rel="nofollow"
-          target="_blank"
         >
           Phiranno Designs
         </a>
