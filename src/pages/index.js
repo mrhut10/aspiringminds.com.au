@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from '../components/header';
 import Hero from '../components/hero';
+import Tagline from '../components/tagline';
 import Skew from '../components/skew';
 import { About, OurApproach, Blog } from '../components/cards';
 import Button from '../components/button';
@@ -24,13 +25,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
     <Header />
     <Hero />
-    <Skew>
-      <h2 className="cards items-center justify-around leading-none m-0 text-3xl w-full">
-        <div className="flex justify-center">Motivate.</div>
-        <div className="flex justify-center">Educate.</div>
-        <div className="flex justify-center">Elevate.</div>
-      </h2>
-    </Skew>
+    <Tagline />
     <About />
     <Skew>
       <div className=" md:text-center text-xl uppercase">
