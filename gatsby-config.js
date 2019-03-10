@@ -63,7 +63,7 @@ module.exports = {
         background_color: `#63c5ff`,
         theme_color: `#0043a4`,
         display: `minimal-ui`,
-        icon: `content/assets/icon.svg`,
+        icon: `content/assets/icon.png`,
       },
     },
     {
