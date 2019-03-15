@@ -24,7 +24,7 @@ const Services = () => {
           </div>
         </div>
         <div className="flex items-center justify-center px-4 md:p-8 w-full sm:w-1/2">
-          <img src={Image} alt="" />
+          <img className="p-4 w-full" src={Image} alt="" />
         </div>
       </div>
       <div className="max-w-3xl mx-auto py-8">
