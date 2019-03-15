@@ -438,4 +438,19 @@ tbody tr {
   @apply mb-8;
 }
 
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  --margin: 1rem;
+  --modifier: calc(44rem - 100%);
+  margin: calc(var(--margin) * -1);
+}
+
+.services > * {
+  flex-grow: 1;
+  flex-basis: calc(var(--modifier) * 999);
+  margin: var(--margin);
+  @apply pb-6;
+}
+
 /* purgecss end ignore */

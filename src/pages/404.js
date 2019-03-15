@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-import FourZeroFour from '../../content/assets/404.svg';
+import FourZeroFour from '../images/404.svg';
 
 class NotFoundPage extends React.Component {
   render() {

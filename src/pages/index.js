@@ -11,9 +11,9 @@ import Testimonials from '../components/testimonials';
 import Footer from '../components/footer';
 import SEO from '../components/seo';
 
-import PhoneIcon from '../../content/assets/phone.svg';
-import MailIcon from '../../content/assets/mail.svg';
-import ContactIcon from '../../content/assets/contact.svg';
+import PhoneIcon from '../images/phone.svg';
+import MailIcon from '../images/mail.svg';
+import ContactIcon from '../images/contact.svg';
 
 import '../css/tailwind.css';
 

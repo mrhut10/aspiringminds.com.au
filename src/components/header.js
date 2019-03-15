@@ -48,7 +48,7 @@ const Header = () => (
         <NavLink link="/our-approach" title="Our&nbsp;Approach" />
         <NavLink link="/services" title="Services" />
         <NavLink link="/contact" title="Contact" />
-        <NavLink link="/blog" title="Blog" />
+        {/* <NavLink link="/blog" title="Blog" /> */}
         <a
           className="hidden xl:flex font-display items-center pl-6 py-3 hover:text-blue-4"
           href="tel:0412522849"
