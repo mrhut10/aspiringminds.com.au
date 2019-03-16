@@ -22,7 +22,17 @@ const IndexPage = () => (
     dir="ltr"
     className="bg-white flex flex-col font-sans max-w-4xl mx-auto min-h-screen text-grey-darkest w-full"
   >
-    <SEO title="Home" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+    <SEO
+      title="Home"
+      keywords={[
+        `tutor port macquarie`,
+        `tutoring port macquarie`,
+        `maths tutor port macquarie`,
+        `english tutor port macquarie`,
+        `physics tutor port macquarie`,
+        `student tutor network port macquarie`,
+      ]}
+    />
     <Header />
     <Hero />
     <Tagline />

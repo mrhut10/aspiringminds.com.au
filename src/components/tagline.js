@@ -1,5 +1,5 @@
-import React from 'react'
-import Skew from '../components/skew'
+import React from 'react';
+import Skew from '../components/skew';
 
 const Tagline = () => {
   return (
@@ -10,7 +10,7 @@ const Tagline = () => {
         <div className="flex justify-center">Elevate.</div>
       </h2>
     </Skew>
-  )
-}
+  );
+};
 
-export default Tagline
+export default Tagline;

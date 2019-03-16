@@ -11,7 +11,17 @@ import '../css/tailwind.css';
 
 const ContactPage = () => (
   <div className="bg-white flex flex-col font-sans max-w-4xl mx-auto min-h-screen text-grey-darkest w-full">
-    <SEO title="Contact" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+    <SEO
+      title="Contact"
+      keywords={[
+        `tutor port macquarie`,
+        `tutoring port macquarie`,
+        `maths tutor port macquarie`,
+        `english tutor port macquarie`,
+        `physics tutor port macquarie`,
+        `student tutor network port macquarie`,
+      ]}
+    />
     <Header />
     <Contact />
     <Footer />

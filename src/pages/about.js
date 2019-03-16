@@ -9,7 +9,17 @@ import Image from '../images/about.svg';
 const About = () => {
   return (
     <Layout>
-      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <SEO
+        title="About"
+        keywords={[
+          `tutor port macquarie`,
+          `tutoring port macquarie`,
+          `maths tutor port macquarie`,
+          `english tutor port macquarie`,
+          `physics tutor port macquarie`,
+          `student tutor network port macquarie`,
+        ]}
+      />
       <div className="flex flex-wrap">
         <div className="flex items-center justify-center w-full md:w-1/2">
           <div className="max-w-sm mx-auto p-4 text-xl">

@@ -10,7 +10,14 @@ const OurApproach = () => {
     <Layout>
       <SEO
         title="Our approach"
-        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+        keywords={[
+          `tutor port macquarie`,
+          `tutoring port macquarie`,
+          `maths tutor port macquarie`,
+          `english tutor port macquarie`,
+          `physics tutor port macquarie`,
+          `student tutor network port macquarie`,
+        ]}
       />
       <div className="flex flex-wrap">
         <div className="flex flex-col items-center justify-center max-w-sm mx-auto text-xl md:text-2xl w-full sm:w-1/2">
