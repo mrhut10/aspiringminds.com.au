@@ -1,7 +1,9 @@
 import React from 'react';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import Tagline from '../components/tagline';
+
+import Layout from '../components/Layout';
+import SEO from '../components/SEO';
+import Tagline from '../components/Tagline';
+
 import Image from '../images/woman-and-child.svg';
 
 const Services = () => {

@@ -1,15 +1,15 @@
 import React from 'react';
 
-import Header from '../components/header';
-import Hero from '../components/hero';
-import Tagline from '../components/tagline';
-import Skew from '../components/skew';
-import { About, OurApproach, Blog } from '../components/cards';
-import Button from '../components/button';
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import Tagline from '../components/Tagline';
+import Skew from '../components/Skew';
+import { About, OurApproach, Blog } from '../components/Cards';
+import Button from '../components/Button';
 import { Contact } from './contact';
-import Testimonials from '../components/testimonials';
-import Footer from '../components/footer';
-import SEO from '../components/seo';
+import Testimonials from '../components/Testimonials';
+import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 
 import PhoneIcon from '../images/phone.svg';
 import MailIcon from '../images/mail.svg';

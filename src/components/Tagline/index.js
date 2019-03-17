@@ -1,5 +1,5 @@
 import React from 'react';
-import Skew from '../components/skew';
+import Skew from '../Skew';
 
 const Tagline = () => {
   return (

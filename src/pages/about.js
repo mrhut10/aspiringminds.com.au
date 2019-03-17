@@ -1,8 +1,8 @@
 import React from 'react';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import Skew from '../components/skew';
-import Tagline from '../components/tagline';
+import Layout from '../components/Layout';
+import SEO from '../components/SEO';
+import Skew from '../components/Skew';
+import Tagline from '../components/Tagline';
 
 import Image from '../images/about.svg';
 

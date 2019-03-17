@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import AboutImage from '../images/about.svg';
-import OurApproachImage from '../images/approach.svg';
-import BlogImage from '../images/blog.svg';
+import AboutImage from '../../images/about.svg';
+import OurApproachImage from '../../images/approach.svg';
+import BlogImage from '../../images/blog.svg';
 
 export const About = () => (
   <Card

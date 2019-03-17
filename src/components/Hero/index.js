@@ -1,7 +1,8 @@
 import React from 'react';
-import Button from './button';
-import Phone from '../images/phone.svg';
-import Image from '../images/woman-and-child.svg';
+
+import Button from '../Button';
+import Phone from '../../images/phone.svg';
+import Image from '../../images/woman-and-child.svg';
 
 const Hero = () => {
   return (

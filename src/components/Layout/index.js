@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Header from './header.js';
-import Footer from './footer.js';
+import Header from '../Header';
+import Footer from '../Footer';
 
-import '../css/tailwind.css';
+import '../../css/tailwind.css';
 
 const Layout = ({ children }) => (
   <div

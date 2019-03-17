@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Header from '../components/header';
-import FormContent from '../components/form';
-import Footer from '../components/footer';
-import SEO from '../components/seo';
+import Header from '../components/Header';
+import FormContent from '../components/Form';
+import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 
 import LazyLoad from 'react-lazy-load';
 
