@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import AboutImage from '../../images/about.svg';
 import OurApproachImage from '../../images/approach.svg';
-import BlogImage from '../../images/blog.svg';
+import ServicesImage from '../../images/woman-and-child.svg';
 
 export const About = () => (
   <Card
@@ -28,11 +28,11 @@ export const OurApproach = () => (
   />
 );
 
-export const Blog = () => (
+export const Services = () => (
   <Card
-    link="/blog"
-    img={BlogImage}
-    title="Blog"
+    link="/services"
+    img={ServicesImage}
+    title="Services"
     body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis fugit sapiente suscipit aliquam quibusdam eaque debitis, cum ratione totam voluptates. Quaerat pariatur consequatur omnis nulla illum sapiente eius voluptas harum!"
   />
 );

@@ -1,27 +1,21 @@
 import React from 'react';
 
-import Header from '../components/Header';
+import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import Tagline from '../components/Tagline';
 import Skew from '../components/Skew';
-import { About, OurApproach, Blog } from '../components/Cards';
+import { About, OurApproach, Services } from '../components/Cards';
 import Button from '../components/Button';
-import { Contact } from './contact';
+import Contact from '../components/Contact';
 import Testimonials from '../components/Testimonials';
-import Footer from '../components/Footer';
 import SEO from '../components/SEO';
 
 import PhoneIcon from '../images/phone.svg';
 import MailIcon from '../images/mail.svg';
 import ContactIcon from '../images/contact.svg';
 
-import '../css/tailwind.css';
-
 const IndexPage = () => (
-  <div
-    dir="ltr"
-    className="bg-white flex flex-col font-sans max-w-4xl mx-auto min-h-screen text-grey-darkest w-full"
-  >
+  <Layout>
     <SEO
       title="Home"
       keywords={[
@@ -33,7 +27,6 @@ const IndexPage = () => (
         `student tutor network port macquarie`,
       ]}
     />
-    <Header />
     <Hero />
     <Tagline />
     <About />
@@ -58,7 +51,7 @@ const IndexPage = () => (
         />
       </div>
     </Skew>
-    <Blog />
+    <Services />
     <Skew>
       <div className=" md:text-center text-xl">
         <h2 className="md:text-5xl">For more information, please email us</h2>
@@ -71,8 +64,7 @@ const IndexPage = () => (
     </Skew>
     <Testimonials />
     <Contact />
-    <Footer />
-  </div>
+  </Layout>
 );
 
 export default IndexPage;
