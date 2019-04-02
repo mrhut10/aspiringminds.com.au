@@ -4,7 +4,9 @@ const Footer = () => (
   <footer className="p-4 text-sm">
     <Social />
     <p className="flex items-center justify-center text-grey-dark w-full">
-      <div>Aspiring Minds © {new Date().getFullYear()}</div>
+      <div>
+        Aspiring Minds Educational Elevation © {new Date().getFullYear()}
+      </div>
       <div className="mx-2">&bull;</div>
       <div>
         <span className="mr-1">Website by</span>
