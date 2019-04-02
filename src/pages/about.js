@@ -41,19 +41,17 @@ const About = () => (
         At Aspiring Minds, students are provided with a positive and safe
         environment, with clear boundaries for discipline.
       </p>
-      <div className="font-sans max-w-md p-4 self-start text-grey-darkest text-xl">
-        <div>
-          <p>
-            We recognise the benefit of applying principles of consistency and
-            fairness within a framework of honesty, integrity and authenticity
-            which builds a respectful and tolerant atmosphere among the students
-            and between the students and staff.
-          </p>
-          <p>
-            The improvement in students’ self-esteem and confidence is extremely
-            gratifying to all involved.
-          </p>
-        </div>
+      <div className="font-normal font-sans max-w-md p-4 self-start text-grey-darkest text-xl">
+        <p>
+          We recognise the benefit of applying principles of consistency and
+          fairness within a framework of honesty, integrity and authenticity
+          which builds a respectful and tolerant atmosphere among the students
+          and between the students and staff.
+        </p>
+        <p>
+          The improvement in students’ self-esteem and confidence is extremely
+          gratifying to all involved.
+        </p>
       </div>
     </Skew>
 
