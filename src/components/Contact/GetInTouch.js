@@ -34,9 +34,11 @@ const GetInTouch = () => (
         </h3>
         <p>
           <a href="https://goo.gl/maps/Fk2pQHrmQw12">
-            <span className="mb-0">39 Clifton Drive</span>
+            <span>Clifton Centre</span>
             <br />
-            <span>Port Macquarie</span>
+            <span>39 Clifton Drive</span>
+            <br />
+            <span>Port Macquarie, 2444</span>
           </a>
         </p>
 
