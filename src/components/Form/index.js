@@ -3,7 +3,7 @@ import { navigate } from 'gatsby-link';
 
 function encode(data) {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
     .join('&');
 }
 
@@ -46,54 +46,74 @@ export default class Index extends React.Component {
         {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
         <input type="hidden" name="form-name" value="contact" />
         <p hidden>
-          <label>
+          <label htmlFor="bot-field">
             Don’t fill this out:{' '}
-            <input name="bot-field" onChange={this.handleChange} />
+            <input
+              id="bot-field"
+              name="bot-field"
+              onChange={this.handleChange}
+            />
           </label>
         </p>
         <p>
-          <label className="block font-bold mb-6 text-xs tracking-wide uppercase">
+          <label
+            className="block font-bold mb-6 text-xs tracking-wide uppercase"
+            htmlFor="name"
+          >
             <span className="block font-display mb-2">Full name:</span>
             <input
               className="appearance-none bg-blue-0 block border leading-tight px-4 py-3 rounded-none text-base w-full focus:bg-white focus:border-blue-5 focus:outline-none hover:bg-white"
-              type="text"
+              id="name"
               name="name"
-              required
               onChange={this.handleChange}
+              required
+              type="text"
             />
           </label>
         </p>
         <p>
-          <label className="block font-bold mb-6 text-xs tracking-wide uppercase">
+          <label
+            className="block font-bold mb-6 text-xs tracking-wide uppercase"
+            htmlFor="phone"
+          >
             <span className="block font-display mb-2">Phone number:</span>
             <input
               className="appearance-none bg-blue-0 block border leading-tight px-4 py-3 rounded-none text-base w-full focus:bg-white focus:border-blue-5 focus:outline-none hover:bg-white"
-              type="text"
+              id="phone"
               name="phone"
-              required
               onChange={this.handleChange}
+              required
+              type="text"
             />
           </label>
         </p>
         <p>
-          <label className="block font-bold mb-6 text-xs tracking-wide uppercase">
+          <label
+            className="block font-bold mb-6 text-xs tracking-wide uppercase"
+            htmlFor="email"
+          >
             <span className="block font-display mb-2">Email address:</span>
             <input
               className="appearance-none bg-blue-0 block border leading-tight px-4 py-3 rounded-none text-base w-full focus:bg-white focus:border-blue-5 focus:outline-none hover:bg-white"
-              type="email"
+              id="email"
               name="email"
               onChange={this.handleChange}
+              type="email"
             />
           </label>
         </p>
         <p>
-          <label className="block font-bold mb-6 text-xs tracking-wide uppercase">
+          <label
+            className="block font-bold mb-6 text-xs tracking-wide uppercase"
+            htmlFor="message"
+          >
             <span className="block font-display mb-2">Message:</span>
             <textarea
               className="appearance-none bg-blue-0 block border h-48 leading-tight px-4 py-3 rounded-none text-base text-grey-darker w-full focus:bg-white focus:border-blue-5 focus:outline-none hover:bg-white"
+              id="message"
               name="message"
-              required
               onChange={this.handleChange}
+              required
             />
           </label>
         </p>

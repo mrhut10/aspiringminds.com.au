@@ -25,6 +25,7 @@ const Header = () => (
           <button
             className="flex md:hidden p-3 text-grey-darkest"
             onClick={handleClick}
+            type="button"
           >
             <svg
               className="fill-current h-4 w-4"
