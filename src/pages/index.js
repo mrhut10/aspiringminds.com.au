@@ -33,7 +33,7 @@ const IndexPage = () => (
     <Skew>
       <div className=" md:text-center text-xl uppercase">
         <h2 className="md:text-5xl normal-case">
-          Contact us for any further enquires
+          Contact us for further enquires
         </h2>
         <Button svg={ContactIcon} link="/contact" title="Contact" />
       </div>
