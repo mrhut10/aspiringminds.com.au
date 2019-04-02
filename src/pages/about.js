@@ -20,7 +20,7 @@ const About = () => (
       ]}
     />
     <div className="flex flex-wrap">
-      <div className="flex items-center justify-center w-full md:w-1/2">
+      <div className="flex items-center justify-center w-full sm:w-1/2">
         <div className="max-w-sm mx-auto p-4 text-xl">
           <h1>About Aspiring Minds</h1>
           <p>
@@ -32,7 +32,11 @@ const About = () => (
         </div>
       </div>
       <div className="flex items-center justify-center p-4 md:p-8 w-full sm:w-1/2">
-        <img className="p-4 md:p-8 w-full" src={Image} alt="" />
+        <img
+          className="max-w-sm sm:max-w-full p-4 md:p-8 w-full"
+          src={Image}
+          alt=""
+        />
       </div>
     </div>
 
