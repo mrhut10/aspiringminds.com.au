@@ -19,7 +19,12 @@ const Header = () => (
             className="flex items-center ml-4 no-underline text-grey-darkest"
           >
             <Logo />
-            <h1 className="leading-none m-2 text-2xl">Aspiring Minds</h1>
+            <h1 className="leading-none m-2 text-2xl">
+              Aspiring Minds{' '}
+              <span className="font-sans font-normal hidden md:inline text-grey-darker">
+                Educational Elevation
+              </span>
+            </h1>
           </Link>
 
           <button
