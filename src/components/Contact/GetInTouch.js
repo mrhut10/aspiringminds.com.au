@@ -13,45 +13,36 @@ const GetInTouch = () => (
 
         <p>We will get back to you as soon as possible.</p>
 
+        <h3 className="block font-bold font-display m-0 text-xs tracking-wide uppercase">
+          Phone:
+        </h3>
         <p>
-          <div>
-            <strong className="block font-bold font-display text-xs tracking-wide uppercase">
-              Phone:
-            </strong>
-          </div>
-          <div>
-            <a href="tel:0412522849">0412&nbsp;522&nbsp;849</a>
-          </div>
+          <a href="tel:0412522849">0412&nbsp;522&nbsp;849</a>
         </p>
 
+        <h3 className="block font-bold font-display m-0 text-xs tracking-wide uppercase">
+          Email:
+        </h3>
         <p>
-          <div>
-            <strong className="block font-bold font-display text-xs tracking-wide uppercase">
-              Email:
-            </strong>
-          </div>
-          <div>
-            <a href="mailto:mryals@aspiringminds.com.au">
-              mryals@aspiringminds.com.au
-            </a>
-          </div>
-        </p>
-
-        <p>
-          <strong className="block font-bold font-display text-xs tracking-wide uppercase">
-            Address:
-          </strong>
-          <a href="https://goo.gl/maps/Fk2pQHrmQw12">
-            <p className="mb-0">39 Clifton Drive</p>
-            <p>Port Macquarie</p>
+          <a href="mailto:mryals@aspiringminds.com.au">
+            mryals@aspiringminds.com.au
           </a>
         </p>
 
+        <h3 className="block font-bold font-display m-0 text-xs tracking-wide uppercase">
+          Address:
+        </h3>
         <p>
-          <strong className="block font-bold font-display mb-2 text-xs tracking-wide uppercase">
-            Hours:
-          </strong>
+          <a href="https://goo.gl/maps/Fk2pQHrmQw12">
+            <span className="mb-0">39 Clifton Drive</span>
+            <br />
+            <span>Port Macquarie</span>
+          </a>
         </p>
+
+        <h3 className="block font-bold font-display mb-2 text-xs tracking-wide uppercase">
+          Hours:
+        </h3>
         <table>
           <tbody>
             <tr>
