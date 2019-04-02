@@ -9,9 +9,7 @@ export const About = () => (
     link="/about"
     img={AboutImage}
     title="About Us"
-    body="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, ipsam
-      nesciunt libero quod enim dolorum id esse alias harum assumenda velit
-      accusamus ad, corporis magni et tenetur aliquam expedita eius!"
+    body="Over 40 years teaching experience, combined with a holistic learning environment, enables students to improve their self-esteem and confidence with greatly improved results."
   />
 );
 
@@ -21,10 +19,7 @@ export const OurApproach = () => (
     link="/our-approach"
     img={OurApproachImage}
     title="Our Approach"
-    body="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos sequi
-        omnis at, numquam totam alias similique debitis nesciunt, dolorum
-        error ex excepturi nihil. Magnam libero aspernatur dolores animi,
-        laborum accusantium?"
+    body="Individual attention within an inclusive environment enables students to develop and maintain their self-esteem and move towards their individual capabilities."
   />
 );
 
@@ -33,7 +28,7 @@ export const Services = () => (
     link="/services"
     img={ServicesImage}
     title="Services"
-    body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis fugit sapiente suscipit aliquam quibusdam eaque debitis, cum ratione totam voluptates. Quaerat pariatur consequatur omnis nulla illum sapiente eius voluptas harum!"
+    body="Individual or group programs, catering for all levels of ability, with comprehensive curriculum based programming, specialising in all areas of literacy and numeracy."
   />
 );
 

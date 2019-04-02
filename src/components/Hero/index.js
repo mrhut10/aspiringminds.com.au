@@ -10,10 +10,8 @@ const Hero = () => (
       <div className="flex flex-col items-center justify-center max-w-sm mx-auto text-xl md:text-2xl w-full sm:w-1/2">
         <h1 className="mb-2 md:text-5xl">Call now for a free consultation!</h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium,
-          dignissimos molestias sequi animi dolorum quas tempora aperiam? Sit
-          rem libero eum modi aspernatur vitae optio qui, dignissimos reiciendis
-          ipsam et?
+          Working with you, we can provide an approach to suit your child’s
+          needs. Call us today to learn more.
         </p>
         <Button
           svg={Phone}

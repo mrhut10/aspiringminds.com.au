@@ -24,10 +24,10 @@ const About = () => (
         <div className="max-w-sm mx-auto p-4 text-xl">
           <h1>About Aspiring Minds</h1>
           <p>
-            Aspiring Minds Educational Intervention (Aspiring Minds) has emerged
-            from experience gleaned over 40 years of teaching and observing
-            young people learn and develop both within and outside classroom
-            situations.
+            Aspiring Minds Educational Intervention{' '}
+            <strong>(Aspiring Minds)</strong> has emerged from experience
+            gleaned over 40 years of teaching and observing young people learn
+            and develop both within and outside classroom situations.
           </p>
         </div>
       </div>

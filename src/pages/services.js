@@ -23,12 +23,7 @@ const Services = () => (
       <div className="flex flex-col items-center justify-center max-w-sm mx-auto text-xl md:text-2xl w-full sm:w-1/2">
         <div className="p-4 mb-8">
           <h1>Services</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis,
-            corporis aliquam labore ratione id autem rerum accusantium, nihil
-            laborum dolore facilis cum vero quisquam vel magnam reprehenderit et
-            debitis quaerat!
-          </p>
+          <p>We are a one-stop-shop for all your child’s educational needs.</p>
         </div>
       </div>
       <div className="flex items-center justify-center px-4 md:p-8 w-full sm:w-1/2">
@@ -37,54 +32,49 @@ const Services = () => (
     </div>
     <div className="max-w-3xl mx-auto py-8">
       <div className="services">
-        <Service title="First">
+        <Service title="Age Groups">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
-            corrupti suscipit, aliquid cum in odio ea quidem quis optio
-            similique voluptas praesentium. Harum iure distinctio eius. Numquam
-            iure laudantium commodi?
+            Aspiring Minds provides for infant/primary aged children, generally
+            in the 4 to 12 year age group.
           </p>
         </Service>
-        <Service title="Second">
+        <Service title="Areas Taught">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem illo
-            magni eos maxime incidunt ea quibusdam suscipit voluptatum impedit?
-            A excepturi sunt eius laudantium ut, tempore quibusdam assumenda
-            repellat. Quia.
+            We teach all infant/primary subjects, specialising in all areas of
+            literacy and numeracy. Our staff are all qualified and up-to-date
+            with current curriculum requirements and technology.
           </p>
         </Service>
-        <Service title="Third">
+        <Service title="Ability Levels">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            nam blanditiis commodi, perferendis reprehenderit consequatur
-            voluptatem nulla facere a nisi illo maxime eum soluta. Aspernatur
-            velit iure rerum impedit quam?
+            Each student is a unique individual and each has a different level
+            of ability. Aspiring Minds recognises this and caters for all levels
+            of ability. We deliver differentiated wholistic programs taking each
+            student’s social, emotional and intellectual level into account.
           </p>
         </Service>
       </div>
       <div className="services">
-        <Service title="Fourth">
+        <Service title="Educational Intervention">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis ut
-            vitae est alias assumenda voluptatum quia neque deserunt soluta
-            accusamus, facilis sint ea nisi non corporis consectetur id
-            recusandae mollitia.
+            Many students have been assessed by one or more health care
+            professionals as requiring specific intervention in the educational
+            area because of a particular issue. We provide educational
+            intervention when this is recommended by our health care
+            professional collaborators.
           </p>
         </Service>
-        <Service title="Fifth">
+        <Service title="Rich Assessment Tasks">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
-            explicabo alias animi quidem dolor similique dolores sed ipsum
-            neque, accusantium cum aperiam harum! Atque, dicta reprehenderit
-            nihil sint blanditiis nulla?
+            These enable students to use and develop their imagination and
+            communication skills.
           </p>
         </Service>
-        <Service title="Sixth">
+        <Service title="Programs">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
-            nemo voluptatibus quas rem iure rerum doloremque obcaecati omnis
-            adipisci quo a, odio autem reprehenderit reiciendis atque quasi,
-            nobis explicabo deserunt!
+            Our programming is comprehensive and based on the NSW Curriculum
+            (NESA) The range provided includes individual, group and holiday
+            programs.
           </p>
         </Service>
       </div>

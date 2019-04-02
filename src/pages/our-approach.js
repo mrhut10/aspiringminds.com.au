@@ -23,10 +23,8 @@ const OurApproach = () => (
         <div className="p-4 mb-8">
           <h1>Our Approach</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis,
-            corporis aliquam labore ratione id autem rerum accusantium, nihil
-            laborum dolore facilis cum vero quisquam vel magnam reprehenderit et
-            debitis quaerat!
+            At Aspiring Minds we recognise that our students are individuals,
+            have differing needs and tailor our approach accordingly.
           </p>
         </div>
       </div>
@@ -36,54 +34,46 @@ const OurApproach = () => (
     </div>
     <div className="max-w-3xl mx-auto py-8">
       <div className="services">
-        <Service title="First">
+        <Service title="Environment">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
-            corrupti suscipit, aliquid cum in odio ea quidem quis optio
-            similique voluptas praesentium. Harum iure distinctio eius. Numquam
-            iure laudantium commodi?
+            We have established a positive deep-learning and inclusive
+            environment in which students can develop into constructive and
+            active individual or group learners.
           </p>
         </Service>
-        <Service title="Second">
+        <Service title="Individual attention">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem illo
-            magni eos maxime incidunt ea quibusdam suscipit voluptatum impedit?
-            A excepturi sunt eius laudantium ut, tempore quibusdam assumenda
-            repellat. Quia.
+            Whether in an individual or group environment, our programs provide
+            an opportunity for students to develop and maintain self-esteem and
+            a positive-growth mindset.
           </p>
         </Service>
-        <Service title="Third">
+        <Service title="Ability recognition">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            nam blanditiis commodi, perferendis reprehenderit consequatur
-            voluptatem nulla facere a nisi illo maxime eum soluta. Aspernatur
-            velit iure rerum impedit quam?
+            Our programs cater for individual differences and inspire a
+            realistic belief in students’ respective individual abilities.
           </p>
         </Service>
       </div>
       <div className="services">
-        <Service title="Fourth">
+        <Service title="Inclusivity">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis ut
-            vitae est alias assumenda voluptatum quia neque deserunt soluta
-            accusamus, facilis sint ea nisi non corporis consectetur id
-            recusandae mollitia.
+            We listen to and acknowledge the different roles played by students
+            themselves, parents and other key stakeholders in seeking the best
+            outcomes for each student.
           </p>
         </Service>
-        <Service title="Fifth">
+        <Service title="Gender diversity">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
-            explicabo alias animi quidem dolor similique dolores sed ipsum
-            neque, accusantium cum aperiam harum! Atque, dicta reprehenderit
-            nihil sint blanditiis nulla?
+            We recognise that gender is an issue within the sphere of learning
+            and that this can require a differentiated approach for each student
+            to achieve the best outcomes.
           </p>
         </Service>
-        <Service title="Sixth">
+        <Service title="Tolerance and respect">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
-            nemo voluptatibus quas rem iure rerum doloremque obcaecati omnis
-            adipisci quo a, odio autem reprehenderit reiciendis atque quasi,
-            nobis explicabo deserunt!
+            We assist each student to develop as a responsible learner and show
+            tolerance to and respect for other students and themselves.
           </p>
         </Service>
       </div>
