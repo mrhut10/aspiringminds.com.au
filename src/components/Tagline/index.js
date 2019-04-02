@@ -3,11 +3,13 @@ import Skew from '../Skew';
 
 const Tagline = () => (
   <Skew>
-    <h2 className="cards items-center justify-around leading-none m-0 text-3xl w-full">
-      <div className="flex justify-center">Motivate.</div>
-      <div className="flex justify-center">Educate.</div>
-      <div className="flex justify-center">Elevate.</div>
-    </h2>
+    <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center leading-none m-0 w-full">
+      <h2 className="text-3xl">Motivate</h2>
+      <span className="hidden sm:block mx-6">|</span>
+      <h2 className="text-3xl">Educate</h2>
+      <span className="hidden sm:block mx-6">|</span>
+      <h2 className="text-3xl">Elevate</h2>
+    </div>
   </Skew>
 );
 
