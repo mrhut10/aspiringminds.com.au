@@ -5,7 +5,7 @@ const Footer = () => (
     <Social />
     <p className="flex items-center justify-center text-grey-dark w-full">
       <div>
-        Aspiring Minds Educational Elevation © {new Date().getFullYear()}
+        Aspiring Minds Educational Intervention © {new Date().getFullYear()}
       </div>
       <div className="mx-2">&bull;</div>
       <div>
