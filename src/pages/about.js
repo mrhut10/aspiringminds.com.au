@@ -5,6 +5,7 @@ import Skew from '../components/Skew';
 import Tagline from '../components/Tagline';
 
 import Image from '../images/about.svg';
+import Meredith from '../images/blog.svg';
 
 const About = () => (
   <Layout>
@@ -61,7 +62,7 @@ const About = () => (
 
     <div className="flex flex-wrap">
       <div className="flex items-center justify-center p-4 md:p-8 w-full sm:w-1/2">
-        <img className="p-4 md:p-8 w-full" src={Image} alt="" />
+        <img className="p-4 md:p-8 w-full" src={Meredith} alt="" />
       </div>
       <div className="flex items-center justify-center w-full md:w-1/2">
         <div className="max-w-sm mx-auto p-4 text-xl">
