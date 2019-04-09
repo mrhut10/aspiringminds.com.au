@@ -49,6 +49,11 @@ const Card = props => (
           <h2 className="md:text-4xl mt-8 mb-2 md:mt-0">{props.title}</h2>
         </Link>
         <p className="font-normal text-grey-darker">{props.body}</p>
+        <Link to={props.link}>
+          <p className="text-blue-6 hover:text-blue-5 text-2xl hover:underline">
+            Learn more&nbsp;&rarr;
+          </p>
+        </Link>
       </div>
     </div>
   </section>
