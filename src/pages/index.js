@@ -31,7 +31,7 @@ const IndexPage = () => (
     <Tagline />
     <About />
     <Skew>
-      <div className=" md:text-center text-xl uppercase">
+      <div className="text-center text-xl uppercase">
         <h2 className="md:text-5xl normal-case">
           Contact us for further enquires
         </h2>
@@ -40,7 +40,7 @@ const IndexPage = () => (
     </Skew>
     <OurApproach className="flex-wrap-reverse" />
     <Skew>
-      <div className=" md:text-center text-xl">
+      <div className="text-center text-xl">
         <h2 className="md:text-5xl">
           Call us today to give your child a brighter future
         </h2>
@@ -53,7 +53,7 @@ const IndexPage = () => (
     </Skew>
     <Services />
     <Skew>
-      <div className=" md:text-center text-xl">
+      <div className="text-center text-xl">
         <h2 className="md:text-5xl">For more information, please email us</h2>
         <Button
           svg={MailIcon}
