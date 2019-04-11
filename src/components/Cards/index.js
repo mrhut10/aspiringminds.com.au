@@ -9,7 +9,7 @@ export const About = () => (
     link="/about"
     img={AboutImage}
     title="About Us"
-    body="Over 40 years teaching experience, combined with a holistic learning environment, enables students to improve their self-esteem and confidence with greatly improved results."
+    body="Over 40 years of teaching experience, combined with a holistic learning environment, enables students to improve their self-esteem and confidence with greatly improved results."
   />
 );
 
@@ -28,7 +28,7 @@ export const Services = () => (
     link="/services"
     img={ServicesImage}
     title="Services"
-    body="Individual or group programs, catering for all levels of ability, with comprehensive curriculum based programming, specialising in all areas of literacy and numeracy."
+    body="Individual or group programs, catering for all levels of ability, with comprehensive curriculum-based programming, specialising in all areas of literacy and numeracy."
   />
 );
 

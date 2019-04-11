@@ -47,7 +47,7 @@ const Services = () => (
         </Service>
         <Service title="Ability Levels">
           <p>
-            Each student is a unique individual and each has a different level
+            Each student is a unique individual, and each has a different level
             of ability. Aspiring Minds recognises this and caters for all levels
             of ability. We deliver differentiated wholistic programs taking each
             student’s social, emotional and intellectual level into account.

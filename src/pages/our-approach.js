@@ -23,8 +23,8 @@ const OurApproach = () => (
         <div className="p-4 mb-8">
           <h1>Our Approach</h1>
           <p>
-            At Aspiring Minds we recognise that our students are individuals,
-            have differing needs and tailor our approach accordingly.
+            At Aspiring Minds we recognise that our students are individuals
+            with differing needs and we tailor our approach accordingly.
           </p>
         </div>
       </div>
@@ -38,7 +38,7 @@ const OurApproach = () => (
           <p>
             We have established a positive deep-learning and inclusive
             environment in which students can develop into constructive and
-            active individual or group learners.
+            active individuals or group learners.
           </p>
         </Service>
         <Service title="Individual attention">
@@ -51,7 +51,7 @@ const OurApproach = () => (
         <Service title="Ability recognition">
           <p>
             Our programs cater for individual differences and inspire a
-            realistic belief in students’ respective individual abilities.
+            realistic belief in students’ respective abilities.
           </p>
         </Service>
       </div>
@@ -72,8 +72,8 @@ const OurApproach = () => (
         </Service>
         <Service title="Tolerance and respect">
           <p>
-            We assist each student to develop as a responsible learner and show
-            tolerance to and respect for other students and themselves.
+            We assist each student in developing as a responsible learner and
+            showing tolerance to and respect for other students and themselves.
           </p>
         </Service>
       </div>
