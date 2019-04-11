@@ -35,7 +35,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <form
-        className="p-4 w-full"
+        className="w-full"
         name="contact"
         method="post"
         action="/thanks/"

@@ -2,7 +2,7 @@ import React from 'react';
 
 const GetInTouch = () => (
   <div className="mb-4 md:mb-0 w-full md:w-1/2">
-    <div className="h-full m-4 md:ml-0 px-4 py-8">
+    <div className="h-full md:ml-0 px-4 py-8">
       <div className="leading-normal max-w-sm mx-auto text-xl w-full">
         <h2 className="md:text-3xl">Get in touch</h2>
 
@@ -48,12 +48,12 @@ const GetInTouch = () => (
         <table>
           <tbody>
             <tr>
-              <td>Monday &ndash; Friday</td>
-              <td>9:00am &ndash; 5:00pm</td>
+              <td>Monday&nbsp;&ndash;&nbsp;Friday</td>
+              <td>3:30pm&nbsp;&ndash;&nbsp;6:30pm</td>
             </tr>
             <tr>
               <td>Weekends</td>
-              <td>Closed</td>
+              <td>9:00am&nbsp;&ndash;&nbsp;5:00pm</td>
             </tr>
           </tbody>
         </table>
