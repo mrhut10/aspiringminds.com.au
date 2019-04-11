@@ -54,7 +54,6 @@ const Header = () => (
         <NavLink link="/our-approach" title="Our&nbsp;Approach" />
         <NavLink link="/services" title="Services" />
         <NavLink link="/contact" title="Contact" />
-        {/* <NavLink link="/blog" title="Blog" /> */}
         <a
           className="hidden xl:flex font-display items-center pl-6 py-3 hover:text-blue-4"
           href="tel:0412522849"
@@ -92,7 +91,7 @@ const Header = () => (
 const NavLink = props => (
   <Link
     to={props.link}
-    className="overline block md:inline-block border-t md:border-0 font-bold no-underline px-6 py-4 text-grey-darker hover:text-blue-6"
+    className="overline block md:inline-block border-t md:border-0 font-bold no-underline px-6 py-4 text-grey-darker text-base hover:text-blue-6"
   >
     {props.title}
   </Link>
