@@ -3,11 +3,11 @@ import React from 'react';
 const Footer = () => (
   <footer className="p-4 text-sm">
     <Social />
-    <p className="flex items-center justify-center text-grey-dark w-full">
+    <p className="sm:flex flex-wrap items-center justify-center text-center text-grey-dark w-full">
       <div>
         Aspiring Minds Educational Intervention © {new Date().getFullYear()}
       </div>
-      <div className="mx-2">&bull;</div>
+      <div className="hidden sm:block mx-2">&bull;</div>
       <div>
         <span className="mr-1">Website by</span>
         <a
@@ -15,7 +15,7 @@ const Footer = () => (
           href="https://phirannodesigns.com.au"
           rel="nofollow"
         >
-          Phiranno Designs
+          Phiranno&nbsp;Designs
         </a>
       </div>
     </p>
