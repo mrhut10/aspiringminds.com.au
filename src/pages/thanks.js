@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Button from '../components/Button';
-import Image from '../images/confirmation.svg';
+import Image from '../images/thanks.svg';
 import Home from '../images/home.svg';
 
 const Thanks = () => (
