@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import AboutImage from '../../images/about.svg';
 import OurApproachImage from '../../images/approach.svg';
-import ServicesImage from '../../images/woman-and-child.svg';
+import ServicesImage from '../../images/services.svg';
 
 export const About = () => (
   <Card
