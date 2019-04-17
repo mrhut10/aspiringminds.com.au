@@ -7,8 +7,8 @@ const GetInTouch = () => (
         <h2 className="md:text-3xl">Get in touch</h2>
 
         <p>
-          Please reach out to us if you have any questions, we'd love to hear
-          from you!
+          Please call or email, or contact us through the website if you have
+          any questions, we'd love to hear from you!
         </p>
 
         <p>We will get back to you as soon as possible.</p>
