@@ -45,7 +45,7 @@ const Header = () => (
       </div>
       <nav
         id="nav"
-        className="bg-smokey-white border-b md:border-none hidden md:flex flex-1 font-sans md:items-center justify-end w-full md:w-auto"
+        className="bg-white border-b md:border-none hidden md:flex flex-1 font-sans md:items-center justify-end w-full md:w-auto"
       >
         <div className="hidden xl:flex">
           <NavLink link="/" title="Home" />
