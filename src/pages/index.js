@@ -62,7 +62,7 @@ const IndexPage = () => (
         />
       </div>
     </Skew>
-    {/* <Testimonials /> */}
+    <Testimonials />
     <Contact />
   </Layout>
 );

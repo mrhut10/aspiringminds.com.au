@@ -79,7 +79,7 @@ body {
     @apply relative;
   }
   .overline::after {
-    content: '';
+    content: "";
     height: 4px;
     right: 100%;
     transition-duration: 0.3s;
@@ -157,4 +157,20 @@ body {
   flex-basis: calc(var(--modifier) * 999);
   margin: var(--margin);
   @apply pb-6;
+}
+
+.open-quote {
+  transform: translateY(-50%);
+  font-size: 10rem;
+  @apply absolute font-display leading-none ml-4 pin-t pin-l w-10 z-10;
+}
+
+.close-quote {
+  transform: translateY(50%);
+  font-size: 10rem;
+  @apply absolute font-display leading-none mr-4 pin-b pin-r w-10 z-10;
+}
+
+.circle {
+  shape-outside: circle();
 }
