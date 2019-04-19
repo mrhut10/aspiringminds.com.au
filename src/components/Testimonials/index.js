@@ -4,7 +4,7 @@ import OpenQuote from '../../images/open-quote.svg';
 import CloseQuote from '../../images/close-quote.svg';
 
 const Testimonials = () => (
-  <section className="mb-8">
+  <section id="testimonial" className="mb-8">
     <h2 className="mb-8 text-4xl sm:text-5xl text-center">Testimonial</h2>
     <div className="bg-blue-0 max-w-lg mx-auto relative w-full">
       <img src={OpenQuote} className="open-quote" />
