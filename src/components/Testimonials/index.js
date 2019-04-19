@@ -20,8 +20,8 @@ const Testimonials = () => (
               When I was in Year Four, school wasn't going as smoothly as it
               could have been. I was really struggling with my work and
               self-esteem. I didn't enjoy going to school at all. I was so happy
-              to find out I had Mrs Ryals as my teacher in year 5. She was new
-              to the school and really took the time to get to know me and
+              to find out I had Mrs Ryals as my teacher in Year Five. She was
+              new to the school and really took the time to get to know me and
               really understand me. She is very welcoming, warm and ready to
               help whenever needed. Very quickly I found my motivation improved,
               and so did my school work. Her classes were fun and challenging at
