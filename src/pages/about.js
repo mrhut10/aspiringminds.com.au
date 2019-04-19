@@ -71,7 +71,7 @@ const About = () => (
           <h1>Meredith Ryals</h1>
           <p>
             With a passion for teaching, our Principal, Meredith Ryals,
-            recognises the benefit to young people of exposure to a holistic
+            recognises the benefit to young people of exposure to a wholistic
             learning environment. Each student is recognised as a unique
             individual and treated as such.
           </p>

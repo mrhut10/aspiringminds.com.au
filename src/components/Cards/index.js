@@ -9,7 +9,7 @@ export const About = () => (
     link="/about"
     img={AboutImage}
     title="About Us"
-    body="Over 40 years of teaching experience, combined with a holistic learning environment, enables students to improve their self-esteem and confidence with greatly improved results."
+    body="Over 40 years of teaching experience, combined with a wholistic learning environment, enables students to improve their self-esteem and confidence with greatly improved results."
   />
 );
 
