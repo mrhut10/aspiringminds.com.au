@@ -10,7 +10,10 @@ const handleClick = ev => {
 };
 
 const Header = () => (
-  <header className="header bg-smokey-white font-display pin-t sticky z-10">
+  <header
+    id="top"
+    className="header bg-smokey-white font-display pin-t sticky z-10"
+  >
     <div className="md:flex h-full w-full">
       <div className="flex h-full items-center">
         <div className="flex items-center justify-between w-full">
