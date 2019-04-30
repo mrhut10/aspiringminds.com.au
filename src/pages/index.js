@@ -10,9 +10,23 @@ import Contact from '../components/Contact';
 import Testimonials from '../components/Testimonials';
 import SEO from '../components/SEO';
 
+import FullLogo from '../images/full-logo.png';
+import FullLogoWebP from '../images/full-logo.webp';
+
 import PhoneIcon from '../images/phone.svg';
 import MailIcon from '../images/mail.svg';
 import ContactIcon from '../images/contact.svg';
+
+const { lazy, Suspense } = React;
+
+const Lazy = lazy(
+  () =>
+    new Promise(resolve => {
+      setTimeout(() => {
+        resolve({ default: () => <IndexPage /> });
+      }, 1000);
+    })
+);
 
 const IndexPage = () => (
   <Layout>
@@ -67,4 +81,20 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+const SplashScreen = () => (
+  <Suspense
+    fallback={
+      <div className="bg-white flex h-screen items-center justify-center w-screen">
+        <picture className="w-1/5">
+          <source srcSet={FullLogoWebP} type="image/webp" />
+          <source srcSet={FullLogo} type="image/jpeg" />
+          <img src={FullLogo} alt="Alt Text!" />
+        </picture>
+      </div>
+    }
+  >
+    <Lazy />
+  </Suspense>
+);
+
+export default SplashScreen;
