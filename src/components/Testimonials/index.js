@@ -77,13 +77,13 @@ const Testimonials = () => (
           /> */}
           <div className="mb-8">
             <p>
-              I went from getting 12/40 on a test to getting third of my maths
-              class, Meredith has helped me build confidence with my maths and
-              help teach me my unlearned maths in a very understandable way.
+              I went from getting 12/40 on a maths test to third in my class!
+              Meredith has helped me to build confidence in my skills and taught
+              me better, more understandable ways of doing things.
             </p>
           </div>
           <h3 className="roman text-center text-grey-darkest">
-            Annalise — former student
+            Annalise — current student
           </h3>
         </div>
         <img src={CloseQuote} className="close-quote" alt="" />
