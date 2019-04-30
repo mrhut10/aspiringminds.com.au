@@ -60,7 +60,7 @@ const Testimonials = () => (
             </p>
           </div>
           <h3 className="roman text-center text-grey-darkest">
-            Gabrielle Baker — parent of former student
+            Gabrielle Baker — parent of current student
           </h3>
         </div>
         <img src={CloseQuote} className="close-quote" alt="" />
