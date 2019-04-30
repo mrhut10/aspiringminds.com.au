@@ -4,7 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 const Footer = () => (
   <footer className="p-4 text-sm">
     <Social />
-    <p className="sm:flex flex-wrap items-center justify-center text-center text-grey-dark w-full">
+    <div className="sm:flex flex-wrap items-center justify-center text-center text-grey-dark w-full">
       <div>
         Aspiring Minds Educational Intervention © {new Date().getFullYear()}
       </div>
@@ -19,7 +19,7 @@ const Footer = () => (
           Phiranno&nbsp;Designs
         </a>
       </div>
-    </p>
+    </div>
     <BackToTop />
   </footer>
 );
