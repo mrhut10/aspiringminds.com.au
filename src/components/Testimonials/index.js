@@ -1,5 +1,6 @@
 import React from 'react';
 import Dexter from '../../images/dexter-square.jpg';
+import Gabrielle from '../../images/gabrielle-square.jpg';
 import OpenQuote from '../../images/open-quote.svg';
 import CloseQuote from '../../images/close-quote.svg';
 
@@ -42,11 +43,11 @@ const Testimonials = () => (
       <img src={OpenQuote} className="open-quote" alt="" />
       <div className="w-full">
         <div className="bg-blue-0 border-l-8 border-blue-5 italic px-4 py-8 relative text-grey-darker">
-          {/* <img
+          <img
             className="circle float-left mr-8 object-cover w-32 rounded-full"
-            src={Dexter}
+            src={Gabrielle}
             alt=""
-          /> */}
+          />
           <div className="mb-8">
             <p>
               I’m not sure how to thank you enough Meredith. My beautiful
