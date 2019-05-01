@@ -60,7 +60,6 @@ const Card = ({ title, img, body, reverse, link }) => (
   </section>
 );
 
-// reverse, img, link, title, body,
 Card.propTypes = {
   title: PropTypes.string,
   body: PropTypes.string, // imagine this might need to be changed to elements if more html is sent
