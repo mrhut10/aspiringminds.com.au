@@ -8,7 +8,7 @@ import Home from '../images/home.svg';
 
 const Thanks = () => (
   <Layout>
-    <SEO title="Message sent" />
+    <SEO title="Message Sent" />
     <div className="flex flex-wrap">
       <div className="flex items-center justify-center w-full sm:w-1/2">
         <div className="max-w-sm mx-auto p-4 text-center text-xl">

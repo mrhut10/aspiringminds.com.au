@@ -8,7 +8,7 @@ import Image from '../images/approach.svg';
 const OurApproach = () => (
   <Layout>
     <SEO
-      title="Our approach"
+      title="Our Approach"
       keywords={[
         `tutor port macquarie`,
         `tutoring port macquarie`,
