@@ -8,7 +8,7 @@ const Skew = ({ children }) => (
 );
 
 Skew.propTypes = {
-  children: propTypes.arrayOf(propTypes.element),
+  children: propTypes.object,
 };
 
 export default Skew;

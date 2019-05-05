@@ -84,8 +84,6 @@ const Header = () => (
               />
             </svg>
           </span>
-
-          <span />
         </a>
       </nav>
     </div>
