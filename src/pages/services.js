@@ -1,5 +1,5 @@
 import React from 'react';
-
+import propTypes from 'prop-types';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Tagline from '../components/Tagline';
@@ -83,11 +83,16 @@ const Services = () => (
   </Layout>
 );
 
-const Service = props => (
+const Service = ({ title, children }) => (
   <div className="max-w-sm mx-auto px-4 py-8 w-full">
-    <h2>{props.title}</h2>
-    {props.children}
+    <h2>{title}</h2>
+    {children}
   </div>
 );
+
+Service.propTypes = {
+  title: propTypes.string,
+  children: propTypes.arrayOf(propTypes.element),
+};
 
 export default Services;

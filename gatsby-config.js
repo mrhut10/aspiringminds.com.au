@@ -21,7 +21,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-139522635-1`,
       },
     },
     {
@@ -51,8 +51,6 @@ module.exports = {
         purgeOnly: [`src/css/tailwind.css`], // Purge only tailwind
       },
     },
-    // `gatsby-plugin-offline`,
-    // `gatsby-plugin-remove-serviceworker`,
     `gatsby-plugin-react-helmet`,
   ],
 };
