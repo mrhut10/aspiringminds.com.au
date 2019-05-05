@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import AboutImage from '../../images/about.svg';
 import OurApproachImage from '../../images/approach.svg';
@@ -32,24 +33,24 @@ export const Services = () => (
   />
 );
 
-const Card = props => (
+const Card = ({ title, img, body, reverse, link }) => (
   <section
     className={`flex ${
-      props.reverse ? 'flex-row-reverse' : 'flex-row'
+      reverse ? 'flex-row-reverse' : 'flex-row'
     } flex-wrap mb-12 p-4`}
   >
     <div className="w-full md:w-1/3">
       <div className="flex items-center justify-center w-full">
-        <img className="text-center w-48 md:w-full" src={props.img} alt="" />
+        <img className="text-center w-48 md:w-full" src={img} alt="" />
       </div>
     </div>
     <div className="w-full md:w-2/3">
       <div className="max-w-md mx-auto w-full">
-        <Link to={props.link}>
-          <h2 className="md:text-4xl mt-8 mb-2 md:mt-0">{props.title}</h2>
+        <Link to={link}>
+          <h2 className="md:text-4xl mt-8 mb-2 md:mt-0">{title}</h2>
         </Link>
-        <p className="font-normal text-grey-darker">{props.body}</p>
-        <Link to={props.link}>
+        <p className="font-normal text-grey-darker">{body}</p>
+        <Link to={link}>
           <p className="text-blue-6 hover:text-blue-5 text-2xl hover:underline">
             Learn more&nbsp;&rarr;
           </p>
@@ -58,3 +59,11 @@ const Card = props => (
     </div>
   </section>
 );
+
+Card.propTypes = {
+  title: PropTypes.string,
+  body: PropTypes.string, // imagine this might need to be changed to elements if more html is sent
+  link: PropTypes.string,
+  img: PropTypes.string,
+  reverse: PropTypes.bool,
+};
