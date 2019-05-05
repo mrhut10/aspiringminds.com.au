@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import Logo from '../Logo';
 
@@ -91,13 +92,18 @@ const Header = () => (
   </header>
 );
 
-const NavLink = props => (
+const NavLink = ({ link, title }) => (
   <Link
-    to={props.link}
+    to={link}
     className="overline block md:inline-block border-t md:border-0 font-bold no-underline px-6 py-4 text-grey-darker text-base hover:text-blue-6"
   >
-    {props.title}
+    {title}
   </Link>
 );
+
+NavLink.propTypes = {
+  link: PropTypes.string,
+  title: PropTypes.string,
+};
 
 export default Header;
