@@ -33,7 +33,7 @@ const Testimonials = () => (
         <div className="bg-blue-0 max-w-lg mb-16 mx-auto relative w-full">
           <img src={OpenQuote} className="open-quote" alt="" />
           <div className="w-full">
-            <div className="bg-blue-0 border-l-8 border-blue-5 italic px-4 py-8 relative text-grey-darker">
+            <div className="bg-blue-0 border-l-8 border-blue-5 clearfix italic px-4 py-8 relative text-grey-darker">
               <Img
                 className="circle float-left mr-8 object-cover w-32 rounded-full"
                 fluid={data.dexter.childImageSharp.fluid}
@@ -55,9 +55,9 @@ const Testimonials = () => (
                   Ryals.
                 </p>
               </div>
-              <h3 className="roman text-center text-grey-darkest">
+              <cite className="block float-left font-bold font-display roman text-center text-grey-darkest text-xl w-full">
                 Dexter — former student
-              </h3>
+              </cite>
             </div>
             <img src={CloseQuote} className="close-quote" alt="" />
           </div>
@@ -65,7 +65,7 @@ const Testimonials = () => (
         <div className="bg-blue-0 max-w-lg mb-16 mx-auto relative w-full">
           <img src={OpenQuote} className="open-quote" alt="" />
           <div className="w-full">
-            <div className="bg-blue-0 border-l-8 border-blue-5 italic px-4 py-8 relative text-grey-darker">
+            <div className="bg-blue-0 border-l-8 border-blue-5 clearfix italic px-4 py-8 relative text-grey-darker">
               <Img
                 className="circle float-left mr-8 object-cover w-32 rounded-full"
                 fluid={data.gabrielle.childImageSharp.fluid}
@@ -81,9 +81,9 @@ const Testimonials = () => (
                   anyone looking for a tutor/mentor.
                 </p>
               </div>
-              <h3 className="roman text-center text-grey-darkest">
+              <cite className="block float-left font-bold font-display roman text-center text-grey-darkest text-xl w-full">
                 Gabrielle Baker — parent of current student
-              </h3>
+              </cite>
             </div>
             <img src={CloseQuote} className="close-quote" alt="" />
           </div>
@@ -91,7 +91,7 @@ const Testimonials = () => (
         <div className="bg-blue-0 max-w-lg mb-16 mx-auto relative w-full">
           <img src={OpenQuote} className="open-quote" alt="" />
           <div className="w-full">
-            <div className="bg-blue-0 border-l-8 border-blue-5 italic px-4 py-8 relative text-grey-darker">
+            <div className="bg-blue-0 border-l-8 border-blue-5 clearfix italic px-4 py-8 relative text-grey-darker">
               <Img
                 className="circle float-left mr-8 object-cover w-32 rounded-full"
                 fluid={data.annalise.childImageSharp.fluid}
@@ -104,9 +104,9 @@ const Testimonials = () => (
                   things.
                 </p>
               </div>
-              <h3 className="roman text-center text-grey-darkest">
+              <cite className="block float-left font-bold font-display roman text-center text-grey-darkest text-xl w-full">
                 Annalise — current student
-              </h3>
+              </cite>
             </div>
             <img src={CloseQuote} className="close-quote" alt="" />
           </div>
