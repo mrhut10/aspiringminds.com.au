@@ -53,7 +53,7 @@
     "url": "git+https://github.com/phirannodesigns/aspiringminds.com.au.git"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "npm run lint && gatsby build",
     "develop": "gatsby develop --open",
     "serve": "gatsby serve",
     "start": "npm run develop",
